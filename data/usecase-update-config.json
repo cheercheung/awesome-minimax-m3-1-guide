@@ -1,0 +1,55 @@
+{
+  "namespace": {
+    "heading_prefix": "Case",
+    "anchor_prefix": "case",
+    "numbering_order": "set-contiguous",
+    "menu_policy": "category-menu",
+    "category_anchors": [
+      "category-engineering",
+      "category-performance",
+      "category-scenes",
+      "category-games",
+      "category-web",
+      "category-visualization",
+      "category-multimodal",
+      "category-finance",
+      "category-research",
+      "category-science",
+      "category-presentation"
+    ]
+  },
+  "presentation": {
+    "menu_layout": "category-menu",
+    "acknowledge_layout": "inline-comma",
+    "quick_start_position": "before-first-case",
+    "quick_start_enabled": false,
+    "introduction_enabled": false,
+    "media_policy": "all-source-media",
+    "video_playback_policy": "r2-playable",
+    "localization_fallback": "block",
+    "case_image_height": 280,
+    "show_type_labels": false,
+    "show_case_notes": false,
+    "show_promotion": false
+  },
+  "structured_data": {
+    "path": "data/use-cases.json",
+    "items_key": "items"
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "es",
+      "pt",
+      "ja",
+      "ko",
+      "de",
+      "fr",
+      "tr",
+      "zh-TW",
+      "zh-CN",
+      "ru"
+    ],
+    "guides_per_locale": 7
+  }
+}

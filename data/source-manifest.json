@@ -1,0 +1,630 @@
+{
+  "handbook_sha256": "75ed3dd89937a5bc1b9eb702254013dc1e3dd63f1e0beb0c2c8dd989b82970ad",
+  "case_count": 53,
+  "attachment_count": 69,
+  "source_package_sha256": "0a61693892ee82dcf53b14ce315495305c2bf2c7ee2f461abee924e884b3069f",
+  "technical_note_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d2d8afb692e604da.html",
+  "attachments": [
+    {
+      "source_name": "15-45-37-911-asset_20260914-154537-911_d59c7ca9568e_1799c40c-34932524975-1-192 (1).mp4",
+      "source_sha256": "d59c7ca9568eec600a3ea4fa0f663f01b374be5c2b42d57f006416dbfa3aa532",
+      "source_bytes": 5700162,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d59c7ca9568eec60.mp4",
+      "public_sha256": "f64f307da13683f2415d030cafcb96d8c906726c82a727a5288b0974eec1c66c",
+      "public_bytes": 7515722
+    },
+    {
+      "source_name": "15-45-37-931-asset_20260914-154537-931_8acfdff02394_a9e6b03e-章鱼8.png",
+      "source_sha256": "8acfdff023945cefbec656adc764c98449174f06a466a5e8f33d411a052402d3",
+      "source_bytes": 232300,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8acfdff023945cef.png",
+      "public_sha256": "8acfdff023945cefbec656adc764c98449174f06a466a5e8f33d411a052402d3",
+      "public_bytes": 232300
+    },
+    {
+      "source_name": "18-21-39-532-asset_20260923-182139-532_445d044cb416_d3949c94-40481458945-1-192.mp4",
+      "source_sha256": "445d044cb416e6627d657230ffac9d3f406eb6348859b7d48b58abfe4d0974fc",
+      "source_bytes": 6964936,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4",
+      "public_sha256": "90424560a27a6ff1a294246e17a79c464c26b9a7a694f0f2897712c222f02358",
+      "public_bytes": 8086587
+    },
+    {
+      "source_name": "20260923-192042.mp4",
+      "source_sha256": "0d276dbb38fe251123d0b5d1ec0ad6bd831b2ca9c3b13b3b852252d980411253",
+      "source_bytes": 97945961,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0d276dbb38fe2511.mp4",
+      "public_sha256": "0ae659b66e27708dbf7db68128ff9d4c84ce375266799ab78c2a526f2ce95ad3",
+      "public_bytes": 30936247
+    },
+    {
+      "source_name": "20260923-192042_shot_breakdown.xlsx",
+      "source_sha256": "159da4fa9b1d5088608201b2757420431c265665da3a38ff17f00cd1ab7a1b45",
+      "source_bytes": 20309,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/159da4fa9b1d5088.xlsx",
+      "public_sha256": "159da4fa9b1d5088608201b2757420431c265665da3a38ff17f00cd1ab7a1b45",
+      "public_bytes": 20309
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790002601.png",
+      "source_sha256": "41a55f70b7f1d2f632ef21c0b6c0c8c0df9ecb39f73de8b5a9cf8c3dfc2ea1f1",
+      "source_bytes": 903679,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/41a55f70b7f1d2f6.png",
+      "public_sha256": "41a55f70b7f1d2f632ef21c0b6c0c8c0df9ecb39f73de8b5a9cf8c3dfc2ea1f1",
+      "public_bytes": 903679
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790136285.png",
+      "source_sha256": "74edf1330fb451962a4f2460f06fae45fc79c1e0ba51f751034f76554db93d11",
+      "source_bytes": 5895754,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/74edf1330fb45196.png",
+      "public_sha256": "74edf1330fb451962a4f2460f06fae45fc79c1e0ba51f751034f76554db93d11",
+      "public_bytes": 5895754
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790136326.png",
+      "source_sha256": "d47ef2420d0ee3fd63b6f5dc0cf33a58d018b4ba14355d8b4eff6855c67f7402",
+      "source_bytes": 10578668,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d47ef2420d0ee3fd.png",
+      "public_sha256": "d47ef2420d0ee3fd63b6f5dc0cf33a58d018b4ba14355d8b4eff6855c67f7402",
+      "public_bytes": 10578668
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790136549.png",
+      "source_sha256": "38dcaf9126232ceaf1382271106288b4c9844bf45148611cfc2fdb5d8d9bceba",
+      "source_bytes": 3298999,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/38dcaf9126232cea.png",
+      "public_sha256": "38dcaf9126232ceaf1382271106288b4c9844bf45148611cfc2fdb5d8d9bceba",
+      "public_bytes": 3298999
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790152819.png",
+      "source_sha256": "a76a61330b187632ac3b73647e85b6b30778a33af16875fc245b6b1c06f88f79",
+      "source_bytes": 637902,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/a76a61330b187632.png",
+      "public_sha256": "a76a61330b187632ac3b73647e85b6b30778a33af16875fc245b6b1c06f88f79",
+      "public_bytes": 637902
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790153571.png",
+      "source_sha256": "3d49a937b9f4a59269114921e98347ebe0513680c4bcde001c12484367e8278e",
+      "source_bytes": 1033646,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/3d49a937b9f4a592.png",
+      "public_sha256": "3d49a937b9f4a59269114921e98347ebe0513680c4bcde001c12484367e8278e",
+      "public_bytes": 1033646
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790154551.png",
+      "source_sha256": "8508826efbfcc0af69cab5dea4ef3877efe77761cb28a81e1dd88f29d521e5a7",
+      "source_bytes": 1142689,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8508826efbfcc0af.png",
+      "public_sha256": "8508826efbfcc0af69cab5dea4ef3877efe77761cb28a81e1dd88f29d521e5a7",
+      "public_bytes": 1142689
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790156482.png",
+      "source_sha256": "e65c6574dbe7538677d16e019afbf4ffcad05d3c11d130fb2ffa33f07117895a",
+      "source_bytes": 2007642,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e65c6574dbe75386.png",
+      "public_sha256": "e65c6574dbe7538677d16e019afbf4ffcad05d3c11d130fb2ffa33f07117895a",
+      "public_bytes": 2007642
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790157646.png",
+      "source_sha256": "c4786844a40d1bc8e958d4c33f20ba735364ffcf00ea5550ca934a33ef1e8b78",
+      "source_bytes": 1118531,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c4786844a40d1bc8.png",
+      "public_sha256": "c4786844a40d1bc8e958d4c33f20ba735364ffcf00ea5550ca934a33ef1e8b78",
+      "public_bytes": 1118531
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1790161143.png",
+      "source_sha256": "3ce710bb5b1010b6b7a010e3f19ee5ba1385f92c0349ecfe81900635208dcab1",
+      "source_bytes": 501989,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/3ce710bb5b1010b6.png",
+      "public_sha256": "3ce710bb5b1010b6b7a010e3f19ee5ba1385f92c0349ecfe81900635208dcab1",
+      "public_bytes": 501989
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1791803752.png",
+      "source_sha256": "1b7ae54ae44f7f13bf68bcaf0ee1b421b1a98f0c71d9519673626ed95fad40f4",
+      "source_bytes": 309937,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png",
+      "public_sha256": "1b7ae54ae44f7f13bf68bcaf0ee1b421b1a98f0c71d9519673626ed95fad40f4",
+      "public_bytes": 309937
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1791803805.png",
+      "source_sha256": "b1ce20000dfd90454f191b121d161f482af130ed7eef6377b58db0f3a78cf083",
+      "source_bytes": 175188,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png",
+      "public_sha256": "b1ce20000dfd90454f191b121d161f482af130ed7eef6377b58db0f3a78cf083",
+      "public_bytes": 175188
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137072.png",
+      "source_sha256": "b416fde93e373d27d22bff9bf3da9e80a2a9a44a977f6d349515d5fda791204b",
+      "source_bytes": 146397,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png",
+      "public_sha256": "b416fde93e373d27d22bff9bf3da9e80a2a9a44a977f6d349515d5fda791204b",
+      "public_bytes": 146397
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137102.png",
+      "source_sha256": "8262a19b5130108bef598b647adf9d7ae8c3bff17a2c93d8212471083a132f1d",
+      "source_bytes": 165189,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png",
+      "public_sha256": "8262a19b5130108bef598b647adf9d7ae8c3bff17a2c93d8212471083a132f1d",
+      "public_bytes": 165189
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137528.png",
+      "source_sha256": "0c1352a3f74c6d06ed0649dda426571ea6b1d004c3ddceab4dd8e4122786d07d",
+      "source_bytes": 251009,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png",
+      "public_sha256": "0c1352a3f74c6d06ed0649dda426571ea6b1d004c3ddceab4dd8e4122786d07d",
+      "public_bytes": 251009
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137546.png",
+      "source_sha256": "62098ea7fec1e9b50038b4d257e7bf1b0fdecf05b3408d4470ea777198f91241",
+      "source_bytes": 201303,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png",
+      "public_sha256": "62098ea7fec1e9b50038b4d257e7bf1b0fdecf05b3408d4470ea777198f91241",
+      "public_bytes": 201303
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137588.png",
+      "source_sha256": "bb2145e35ddb1486042e4344ef2a7a61fd3f2425ba9e47e12e9b55bc85fcd8b8",
+      "source_bytes": 625848,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png",
+      "public_sha256": "bb2145e35ddb1486042e4344ef2a7a61fd3f2425ba9e47e12e9b55bc85fcd8b8",
+      "public_bytes": 625848
+    },
+    {
+      "source_name": "Clipboard_Screenshot_1792137630.png",
+      "source_sha256": "88b30bedd4a8eb00250a88410d330a33d939b3f888a12dca1624a6f38f7a9907",
+      "source_bytes": 222635,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png",
+      "public_sha256": "88b30bedd4a8eb00250a88410d330a33d939b3f888a12dca1624a6f38f7a9907",
+      "public_bytes": 222635
+    },
+    {
+      "source_name": "Flowdesk-源码与性能证据.zip",
+      "source_sha256": "414dd588fb6d583489c531fef240cc6048cbe2139559c4cf49ab27c84c9c7257",
+      "source_bytes": 5478833,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip",
+      "public_sha256": "414dd588fb6d583489c531fef240cc6048cbe2139559c4cf49ab27c84c9c7257",
+      "public_bytes": 5478833
+    },
+    {
+      "source_name": "Flowdesk-火焰图分析过程与复核.zip",
+      "source_sha256": "df80eba46d1f48b2fce508ecaba5a282bb0df02caa44298bc4da38af28242b8b",
+      "source_bytes": 8102851,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip",
+      "public_sha256": "df80eba46d1f48b2fce508ecaba5a282bb0df02caa44298bc4da38af28242b8b",
+      "public_bytes": 8102851
+    },
+    {
+      "source_name": "Flyingbird.mp4",
+      "source_sha256": "6f4bf4f7c2af297c232e343ac65faa85244ea10c0385bcb7d246acd462935c94",
+      "source_bytes": 338065394,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/6f4bf4f7c2af297c.mp4",
+      "public_sha256": "e09b7f31a13d15ebc1a5eb2dfe6b6625edd9ee906fc3197ec2e0ba612ed6af6e",
+      "public_bytes": 19187471
+    },
+    {
+      "source_name": "M3.1-Flash-Preview-特性说明.html",
+      "source_sha256": "d2d8afb692e604daffb12d7a9343bfddefa36a84d6392d1788f3d87071d80229",
+      "source_bytes": 8239,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d2d8afb692e604da.html",
+      "public_sha256": "d2d8afb692e604daffb12d7a9343bfddefa36a84d6392d1788f3d87071d80229",
+      "public_bytes": 8239
+    },
+    {
+      "source_name": "RM_inputs.zip",
+      "source_sha256": "942c1d385ba7c6cc9152d9a4f699705528e2f4611b2e6d7e341fd343aacd3807",
+      "source_bytes": 7655,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/942c1d385ba7c6cc.zip",
+      "public_sha256": "942c1d385ba7c6cc9152d9a4f699705528e2f4611b2e6d7e341fd343aacd3807",
+      "public_bytes": 7655
+    },
+    {
+      "source_name": "after-desktop.png",
+      "source_sha256": "c6ea50b7835b7f86ff064aa836feafb8a85ee15a2e91fa296bb94c2d6a75111d",
+      "source_bytes": 137242,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png",
+      "public_sha256": "c6ea50b7835b7f86ff064aa836feafb8a85ee15a2e91fa296bb94c2d6a75111d",
+      "public_bytes": 137242
+    },
+    {
+      "source_name": "antenna-anonymized.gif",
+      "source_sha256": "7d28029b231f78795a8d5e7340b2fe194cc66ffd963869cb47b15c874c7293bb",
+      "source_bytes": 1505510,
+      "kind": "gif",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif",
+      "public_sha256": "7d28029b231f78795a8d5e7340b2fe194cc66ffd963869cb47b15c874c7293bb",
+      "public_bytes": 1505510
+    },
+    {
+      "source_name": "clipboard 1.png",
+      "source_sha256": "d3e4804aba65463ef8743b6d12e50a62448687f51ecb9f947deb358282530354",
+      "source_bytes": 148076,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png",
+      "public_sha256": "d3e4804aba65463ef8743b6d12e50a62448687f51ecb9f947deb358282530354",
+      "public_bytes": 148076
+    },
+    {
+      "source_name": "clipboard.gif",
+      "source_sha256": "422fa991740011e9e89a7dd9331b946b9b75f6bc448174b47dc36767f5447205",
+      "source_bytes": 428794,
+      "kind": "gif",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif",
+      "public_sha256": "422fa991740011e9e89a7dd9331b946b9b75f6bc448174b47dc36767f5447205",
+      "public_bytes": 428794
+    },
+    {
+      "source_name": "clipboard.png",
+      "source_sha256": "e05739d66959e205df612e579832cdabc988e8bb4b0759ca7931df395d1f4e85",
+      "source_bytes": 280354,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png",
+      "public_sha256": "e05739d66959e205df612e579832cdabc988e8bb4b0759ca7931df395d1f4e85",
+      "public_bytes": 280354
+    },
+    {
+      "source_name": "filename 1.png",
+      "source_sha256": "920bba33668135e7864e3f006bbf290c33a0974539f90d0357b2839084150487",
+      "source_bytes": 121928,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png",
+      "public_sha256": "920bba33668135e7864e3f006bbf290c33a0974539f90d0357b2839084150487",
+      "public_bytes": 121928
+    },
+    {
+      "source_name": "filename 2.png",
+      "source_sha256": "86ffb61d8ce64b2bc88f3347e2fe4b91f0edaa3e4bc0c64869c1a6ed8fb7c764",
+      "source_bytes": 250059,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png",
+      "public_sha256": "86ffb61d8ce64b2bc88f3347e2fe4b91f0edaa3e4bc0c64869c1a6ed8fb7c764",
+      "public_bytes": 250059
+    },
+    {
+      "source_name": "filename.png",
+      "source_sha256": "efd76855a0e928d2bf740635aacdb346f24a35df96525a48f2637ac465b8d906",
+      "source_bytes": 786673,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png",
+      "public_sha256": "efd76855a0e928d2bf740635aacdb346f24a35df96525a48f2637ac465b8d906",
+      "public_bytes": 786673
+    },
+    {
+      "source_name": "icho.pdf",
+      "source_sha256": "b29e8aae314fa1c6c25550d1bd6ecabdb02bfe0511b1a6a0c1966e2208e6c2d4",
+      "source_bytes": 80158,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b29e8aae314fa1c6.pdf",
+      "public_sha256": "b29e8aae314fa1c6c25550d1bd6ecabdb02bfe0511b1a6a0c1966e2208e6c2d4",
+      "public_bytes": 80158
+    },
+    {
+      "source_name": "image 1.png",
+      "source_sha256": "5ea9170dce69f84a2cfa9b948585c2b1583b167d39ff3278356c37745d663aa3",
+      "source_bytes": 4478152,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/5ea9170dce69f84a.png",
+      "public_sha256": "5ea9170dce69f84a2cfa9b948585c2b1583b167d39ff3278356c37745d663aa3",
+      "public_bytes": 4478152
+    },
+    {
+      "source_name": "image 2.png",
+      "source_sha256": "df796856910ffc5507eadbfa371d3f9fdf2dc7e233109e506833839f9eac3dc5",
+      "source_bytes": 5234065,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df796856910ffc55.png",
+      "public_sha256": "df796856910ffc5507eadbfa371d3f9fdf2dc7e233109e506833839f9eac3dc5",
+      "public_bytes": 5234065
+    },
+    {
+      "source_name": "image 3.png",
+      "source_sha256": "5131f7b36f75492c7481736801241e248c174a436dca2a2225154d36ccb5af63",
+      "source_bytes": 12359831,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/5131f7b36f75492c.png",
+      "public_sha256": "5131f7b36f75492c7481736801241e248c174a436dca2a2225154d36ccb5af63",
+      "public_bytes": 12359831
+    },
+    {
+      "source_name": "image.png",
+      "source_sha256": "265c847727ad622d0de0e74c188762d5434680048ed1f8eefdb6e4cf3f208439",
+      "source_bytes": 390638,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/265c847727ad622d.png",
+      "public_sha256": "265c847727ad622d0de0e74c188762d5434680048ed1f8eefdb6e4cf3f208439",
+      "public_bytes": 390638
+    },
+    {
+      "source_name": "m31-rsync-iteration.gif",
+      "source_sha256": "39a351368d139e82213eb157b55a2af0f808dc456689e598dc2a50bb500fd094",
+      "source_bytes": 808721,
+      "kind": "gif",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif",
+      "public_sha256": "39a351368d139e82213eb157b55a2af0f808dc456689e598dc2a50bb500fd094",
+      "public_bytes": 808721
+    },
+    {
+      "source_name": "minimax-design-20s-white-wordmark.mp4",
+      "source_sha256": "51f952c5a7ba11dec72a653d7005c1c641908ae84bb0b55294e931386eb82c86",
+      "source_bytes": 14670775,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4",
+      "public_sha256": "d48e086b1289f7162c9267b984f07b15a80d5284dc71edeccef4f4c6c17482c1",
+      "public_bytes": 5563222
+    },
+    {
+      "source_name": "panorama-anonymized.png",
+      "source_sha256": "62ab881afbaf49ee7f161ecc90ce8947df59db262de06ab4fff410054d91cb2a",
+      "source_bytes": 678044,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png",
+      "public_sha256": "62ab881afbaf49ee7f161ecc90ce8947df59db262de06ab4fff410054d91cb2a",
+      "public_bytes": 678044
+    },
+    {
+      "source_name": "performance-chart.png",
+      "source_sha256": "0be01d25aae9e4d5a40701879e912a9df87511317d0700cc2885a2d007f77ffe",
+      "source_bytes": 136085,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png",
+      "public_sha256": "0be01d25aae9e4d5a40701879e912a9df87511317d0700cc2885a2d007f77ffe",
+      "public_bytes": 136085
+    },
+    {
+      "source_name": "risk_engine.py",
+      "source_sha256": "35d63b32974e1b83bc43db533a8294d1240f4bc00792f85c1c21d43c12bff8db",
+      "source_bytes": 83630,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/35d63b32974e1b83.py",
+      "public_sha256": "35d63b32974e1b83bc43db533a8294d1240f4bc00792f85c1c21d43c12bff8db",
+      "public_bytes": 83630
+    },
+    {
+      "source_name": "risk_report.xlsx",
+      "source_sha256": "e0978b7143a373a4db2271f50dc17895e1889633e393377d81710d31c7ec2698",
+      "source_bytes": 111694,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e0978b7143a373a4.xlsx",
+      "public_sha256": "e0978b7143a373a4db2271f50dc17895e1889633e393377d81710d31c7ec2698",
+      "public_bytes": 111694
+    },
+    {
+      "source_name": "risk_summary.md",
+      "source_sha256": "11e06ea49a285da0efc69ff28767116aef01381154cd508fa6028d4bb22e7667",
+      "source_bytes": 6237,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/11e06ea49a285da0.md",
+      "public_sha256": "11e06ea49a285da0efc69ff28767116aef01381154cd508fa6028d4bb22e7667",
+      "public_bytes": 6237
+    },
+    {
+      "source_name": "spring_gaus_showcase.mp4",
+      "source_sha256": "c94002dd0277d3ef80f29d5914953900eba58300169cdba13631eabf64fb04d8",
+      "source_bytes": 5559453,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4",
+      "public_sha256": "396d6294d2a6120ba7cc44af4f5e974dabef0f45d9395903e69ca61b4514c98c",
+      "public_bytes": 1537787
+    },
+    {
+      "source_name": "structure-anonymized.gif",
+      "source_sha256": "cb1d698cadb47d712d67f1a927224bde41cc6e25d476347c5fb6d82b7dfcf433",
+      "source_bytes": 830187,
+      "kind": "gif",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif",
+      "public_sha256": "cb1d698cadb47d712d67f1a927224bde41cc6e25d476347c5fb6d82b7dfcf433",
+      "public_bytes": 830187
+    },
+    {
+      "source_name": "what_it_is_like_to_be_m3_1.mp4",
+      "source_sha256": "f1907748af3c39bbce72c24184c472160493a2be0452f8bc46d64b069e23a5d0",
+      "source_bytes": 31684767,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/f1907748af3c39bb.mp4",
+      "public_sha256": "0d31d9d5a35d3610ce072f03464bba5f9c7d1d7343ceba46583f166d0d46b411",
+      "public_bytes": 18306737
+    },
+    {
+      "source_name": "两幅图片找不同对比图.png",
+      "source_sha256": "73a2e5b34e66f2e1e0243a45de7c569087f8bb10bda1f797ef1e45c26fad08f9",
+      "source_bytes": 1087699,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/73a2e5b34e66f2e1.png",
+      "public_sha256": "73a2e5b34e66f2e1e0243a45de7c569087f8bb10bda1f797ef1e45c26fad08f9",
+      "public_bytes": 1087699
+    },
+    {
+      "source_name": "夜城逃生.mov",
+      "source_sha256": "e89a71edb82f826c7a70695c6dc8471e4651a2f7a7e203cc78a72a532523a693",
+      "source_bytes": 163089054,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e89a71edb82f826c.mp4",
+      "public_sha256": "8a71300476380660be0fe3ae2d90b8d183178115cc946235b8d2bbb1a6b998cd",
+      "public_bytes": 2877174
+    },
+    {
+      "source_name": "截屏2026-09-23 18.40.59.png",
+      "source_sha256": "0bbae8b0a1f099fb38f10affe817c6b10066582ff5e4b98b5273bbf6b8992ab7",
+      "source_bytes": 10511864,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0bbae8b0a1f099fb.png",
+      "public_sha256": "0bbae8b0a1f099fb38f10affe817c6b10066582ff5e4b98b5273bbf6b8992ab7",
+      "public_bytes": 10511864
+    },
+    {
+      "source_name": "截屏2026-09-23 18.49.23.png",
+      "source_sha256": "b708369d197974dea8f9201f90b30d053f8dad53c49c12d5ccc9114e28f2505d",
+      "source_bytes": 5708139,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b708369d197974de.png",
+      "public_sha256": "b708369d197974dea8f9201f90b30d053f8dad53c49c12d5ccc9114e28f2505d",
+      "public_bytes": 5708139
+    },
+    {
+      "source_name": "截屏2026-09-23 19.02.39.png",
+      "source_sha256": "2b7571af4d1ea41792d30ebc63e3221ef1c6bcb530b841842b9d789cc5a2bebd",
+      "source_bytes": 1085508,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/2b7571af4d1ea417.png",
+      "public_sha256": "2b7571af4d1ea41792d30ebc63e3221ef1c6bcb530b841842b9d789cc5a2bebd",
+      "public_bytes": 1085508
+    },
+    {
+      "source_name": "截屏2026-09-23 19.45.39.png",
+      "source_sha256": "f110fb729649aca6e90244b1d255215f35e7b545c55efc176e64663db36b2275",
+      "source_bytes": 3400638,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/f110fb729649aca6.png",
+      "public_sha256": "f110fb729649aca6e90244b1d255215f35e7b545c55efc176e64663db36b2275",
+      "public_bytes": 3400638
+    },
+    {
+      "source_name": "找不同1.png",
+      "source_sha256": "e91973c03cbd9f7c86c9b9142e9dbca1e1d2737d549eea809fb8f10f9cda9697",
+      "source_bytes": 2403992,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e91973c03cbd9f7c.png",
+      "public_sha256": "e91973c03cbd9f7c86c9b9142e9dbca1e1d2737d549eea809fb8f10f9cda9697",
+      "public_bytes": 2403992
+    },
+    {
+      "source_name": "找不同2.png",
+      "source_sha256": "28d91bba13dfb336146190054ac4b476742bc006d1c404124fed00fa90ea78ef",
+      "source_bytes": 2429742,
+      "kind": "image",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/28d91bba13dfb336.png",
+      "public_sha256": "28d91bba13dfb336146190054ac4b476742bc006d1c404124fed00fa90ea78ef",
+      "public_bytes": 2429742
+    },
+    {
+      "source_name": "案例1_事件推演与历史溯源_京东方IPC大会.md",
+      "source_sha256": "1e131881231a01c5faa25cb11ee052cdb0a445ff1d934b5570e8b3c33da40b0e",
+      "source_bytes": 5840,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1e131881231a01c5.md",
+      "public_sha256": "1e131881231a01c5faa25cb11ee052cdb0a445ff1d934b5570e8b3c33da40b0e",
+      "public_bytes": 5840
+    },
+    {
+      "source_name": "案例2_市场预期差分析_PCB产业链.md",
+      "source_sha256": "0cbe3c574b5e08fc6d6b8478cb1da9b30b78699b3c14a4a755c907164ef8a401",
+      "source_bytes": 35321,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0cbe3c574b5e08fc.md",
+      "public_sha256": "0cbe3c574b5e08fc6d6b8478cb1da9b30b78699b3c14a4a755c907164ef8a401",
+      "public_bytes": 35321
+    },
+    {
+      "source_name": "案例3_产业链测算建模_橡胶产业链.md",
+      "source_sha256": "844630115d45f40fb5a003a56fe586ef06ae576ec8fb3451043e483fcfd00be3",
+      "source_bytes": 16908,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/844630115d45f40f.md",
+      "public_sha256": "844630115d45f40fb5a003a56fe586ef06ae576ec8fb3451043e483fcfd00be3",
+      "public_bytes": 16908
+    },
+    {
+      "source_name": "案例3_附图_橡胶产业链图表(离线可打开).html",
+      "source_sha256": "388c6c6ef297587f1e75160851c4beb640533e125a82a735513993a258651bec",
+      "source_bytes": 5635,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/388c6c6ef297587f.html",
+      "public_sha256": "cb64072d451b430079b798de6dcbac698cf382e329f53bca93dbbcb2c1d09274",
+      "public_bytes": 210964
+    },
+    {
+      "source_name": "案例3_附表_橡胶产业链传导模型(公式联动).xlsx",
+      "source_sha256": "090d3b23d68df28fc43599d3d81c3d9a862ff00d5ff3485ac50f3900550f777a",
+      "source_bytes": 17940,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/090d3b23d68df28f.xlsx",
+      "public_sha256": "d9721eefac9b8ea75e3b3c542848df4c136c9aeca02fdc8d326a3776a1f62e29",
+      "public_bytes": 18034
+    },
+    {
+      "source_name": "案例4_Vera-Rubin产业链拆解制图.html",
+      "source_sha256": "8889bb403cd7f264b74efcd23bee79d75c83ec6bbe6f6349c6ef19c38063f68a",
+      "source_bytes": 23589,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8889bb403cd7f264.html",
+      "public_sha256": "8889bb403cd7f264b74efcd23bee79d75c83ec6bbe6f6349c6ef19c38063f68a",
+      "public_bytes": 23589
+    },
+    {
+      "source_name": "红色章鱼玩偶_30秒完整版_精确.mp4",
+      "source_sha256": "b9bea30b7bed8645d9e97513544cfd3418b27540e3344f9aa2e81e0d4f79b990",
+      "source_bytes": 35708132,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b9bea30b7bed8645.mp4",
+      "public_sha256": "5dd6dde035d88480d9b77b639593f2963bc3fce2085d0b898f61e0917b2d3879",
+      "public_bytes": 8812044
+    },
+    {
+      "source_name": "贵州茅台_三张表及DCF估值模型.xlsx",
+      "source_sha256": "1c7361281c27dfeb751904bbb1ddad79b0f74919cae14fa02f5d527026234d4a",
+      "source_bytes": 109955,
+      "kind": "document",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1c7361281c27dfeb.xlsx",
+      "public_sha256": "1c7361281c27dfeb751904bbb1ddad79b0f74919cae14fa02f5d527026234d4a",
+      "public_bytes": 109955
+    },
+    {
+      "source_name": "跳舞机.mp4",
+      "source_sha256": "de492e064adcfbcf1e4656aa9d8b41ebed9d49e8c5abce32694921c2d9b31570",
+      "source_bytes": 383525793,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/de492e064adcfbcf.mp4",
+      "public_sha256": "14a9dd3e5b92c5c9ffc30c8cc8f81d377aaeff81625993acea7f81d47a41afa7",
+      "public_bytes": 15396541
+    },
+    {
+      "source_name": "飞行棋.mp4",
+      "source_sha256": "7de7a4665f8d68d881d9f35636ca77f24f2abcffd8a47346312ef720b8948d7d",
+      "source_bytes": 82031341,
+      "kind": "video",
+      "public_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7de7a4665f8d68d8.mp4",
+      "public_sha256": "30c669ddfa114dc2d9c2c1ea2cf33ab0a13ed3fa0d15ee7384dc861487e132b6",
+      "public_bytes": 6365497
+    }
+  ]
+}
