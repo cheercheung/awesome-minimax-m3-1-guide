@@ -18,134 +18,17 @@
 
 | 分類 | 事例数 |
 |---|---|
-| [🛠️ デバッグと機能開発](#category-engineering) | 8 |
-| [⚡ 性能最適化](#category-performance) | 2 |
 | [🏛️ 3D インタラクション](#category-scenes) | 4 |
 | [🎮 ゲーム](#category-games) | 4 |
 | [🖥️ Web インターフェース](#category-web) | 6 |
 | [📊 データ可視化](#category-visualization) | 4 |
 | [🎬 マルチモーダルワークフロー](#category-multimodal) | 6 |
-| [📈 金融調査とモデリング](#category-finance) | 6 |
-| [🧪 アルゴリズム研究](#category-research) | 1 |
-| [🔬 科学計算と画像処理](#category-science) | 4 |
 | [📑 プレゼンテーション](#category-presentation) | 8 |
-
-<a id="category-engineering"></a>
-## 🛠️ デバッグと機能開発
-
-<a id="case-1"></a>
-### ケース 1: [端末のネイティブなスクロール位置を保持](https://github.com/MiniMax-AI/minimax-code/pull/306) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**アクティビティ行が消えても長い会話の表示位置を維持する**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-2"></a>
-### ケース 2: [競合した SQLite 書き込みを再試行](https://github.com/MiniMax-AI/minimax-code/pull/319) (投稿者 [@zch0227](https://github.com/zch0227))
-
-**タスクの受付、状態更新、終了にまたがる同時書き込みを扱う**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-3"></a>
-### ケース 3: [終了しない区間分割を防ぐ](https://github.com/moment/luxon/pull/1810) (投稿者 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**負の期間と進まない境界を検出し、正しい日付処理を保つ**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-4"></a>
-### ケース 4: [要素のない ISO 期間を拒否](https://github.com/moment/luxon/pull/1812) (投稿者 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**要素の欠落と有効な明示的ゼロを区別する**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-5"></a>
-### ケース 5: [選択できる端末テーマ](https://github.com/MiniMax-AI/minimax-code/pull/311) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**名前付き配色、ライブプレビュー、設定の保存を組み合わせる**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-6"></a>
-### ケース 6: [claude-tap を mcode に対応させる](https://github.com/liaohch3/claude-tap/pull/441) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**記録のフィルタリングとトレース表示を備えたクライアント連携を追加する**
-
-<sub>2026-08-16</sub>
-
----
-
-<a id="case-7"></a>
-### ケース 7: [動的ワークフローの確認と修復](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**実行前に構成を確認し、失敗したステップを修復する**
-
-<sub>2026-09-17</sub>
-
----
-
-<a id="case-8"></a>
-### ケース 8: [acpx 用の mcode プロファイル](https://github.com/openclaw/acpx/pull/503) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**組み込み ACP エージェント設定で MiniMax Code を接続する**
-
-<sub>2026-08-16</sub>
-
----
-
-
-<a id="category-performance"></a>
-## ⚡ 性能最適化
-
-<a id="case-9"></a>
-### ケース 9: [Flowdesk の計測と性能改善](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
-
-**遅い画面を追跡し、業務操作を維持して三回の測定を比較する**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk の計測と性能改善" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk の計測と性能改善" height="280"></a>
-</p>
-
-[成果物を見る 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [成果物を見る 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
-
-**プロンプト**
-
-```text
-你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
-启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
-要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
-修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
-最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
-
-```
-
----
-
-<a id="case-10"></a>
-### ケース 10: [rsync 性能改善の反復](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
-
-**個々の最適化を追跡し、二種類の測定記録を分けて読む**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 性能改善の反復" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 性能改善の反復" height="280"></a>
-</p>
-
----
-
+| [🔬 科学計算と画像処理](#category-science) | 4 |
+| [⚡ 性能最適化](#category-performance) | 2 |
+| [🧪 アルゴリズム研究](#category-research) | 1 |
+| [📈 金融調査とモデリング](#category-finance) | 6 |
+| [🛠️ デバッグと機能開発](#category-engineering) | 8 |
 
 <a id="category-scenes"></a>
 ## 🏛️ 3D インタラクション
@@ -543,10 +426,10 @@
 
 **参考映像を新しいブランドのモーション表現へ作り替える**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design のブランド映像再構成" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design のブランド映像再構成" height="280"></a>
-</p>
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design のブランド映像再構成" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design のブランド映像再構成" height="210"></a></td>
+</tr></tbody></table>
 
 **プロンプト**
 
@@ -610,6 +493,206 @@
 ```text
 做一下这个题
 ```
+
+---
+
+
+<a id="category-presentation"></a>
+## 📑 プレゼンテーション
+
+<a id="case-46"></a>
+### ケース 46: [電気自動車業界のプレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
+
+**地域比較、グラフ、結論をコンサルティング風にまとめる**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="電気自動車業界のプレゼンテーション" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="電気自動車業界のプレゼンテーション" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-47"></a>
+### ケース 47: [生成動画市場のプレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+
+**高密度の市場情報を統一した図表で整理する**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="生成動画市場のプレゼンテーション" height="280"></a>
+</p>
+
+---
+
+<a id="case-48"></a>
+### ケース 48: [CampusOS の製品プレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+
+**製品と機能群を一貫した視覚ストーリーにする**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS の製品プレゼンテーション" height="280"></a>
+</p>
+
+---
+
+<a id="case-49"></a>
+### ケース 49: [文明の起源を学ぶ教材](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
+
+**博物館風の画像と文字でスペイン語の教材ページを作る**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="文明の起源を学ぶ教材" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="文明の起源を学ぶ教材" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-50"></a>
+### ケース 50: [エディトリアル風の講演](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
+
+**モノクロの文字と図で抽象的な考えにリズムを与える**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="エディトリアル風の講演" height="280"></a>
+</p>
+
+---
+
+<a id="case-51"></a>
+### ケース 51: [イラスト付きフォニックス教材](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
+
+**共通の語尾を繰り返しのイラストと授業活動につなげる**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="イラスト付きフォニックス教材" height="280"></a>
+</p>
+
+---
+
+<a id="case-52"></a>
+### ケース 52: [エベレストの地形プレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
+
+**標高、ルート、リスクを図と比較ページで説明する**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="エベレストの地形プレゼンテーション" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="エベレストの地形プレゼンテーション" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-53"></a>
+### ケース 53: [バリ島七日間の旅行案内](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
+
+**旅程を統一された日別ページと全体像にまとめる**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="バリ島七日間の旅行案内" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="バリ島七日間の旅行案内" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-science"></a>
+## 🔬 科学計算と画像処理
+
+<a id="case-42"></a>
+### ケース 42: [フェーズドアレイアンテナを再構成](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
+
+**ビーム方向とサイドローブ制約の下で位相調整を可視化する**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="フェーズドアレイアンテナを再構成" height="280"></a>
+</p>
+
+---
+
+<a id="case-43"></a>
+### ケース 43: [支持構造を最適化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+
+**一定の荷重と材料量の下で材料配置を探索する**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="支持構造を最適化" height="280"></a>
+</p>
+
+---
+
+<a id="case-44"></a>
+### ケース 44: [弾性物体をシミュレーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+
+**物理条件を変えながら再構成した物体を比較する**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="弾性物体をシミュレーション" height="280"></a>
+</p>
+
+---
+
+<a id="case-45"></a>
+### ケース 45: [二台のカメラ映像をパノラマ合成](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+
+**二つの入力画面と位置合わせ後のパノラマを比較する**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="二台のカメラ映像をパノラマ合成" height="280"></a>
+</p>
+
+---
+
+
+<a id="category-performance"></a>
+## ⚡ 性能最適化
+
+<a id="case-9"></a>
+### ケース 9: [Flowdesk の計測と性能改善](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
+
+**遅い画面を追跡し、業務操作を維持して三回の測定を比較する**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk の計測と性能改善" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk の計測と性能改善" height="210"></a></td>
+</tr></tbody></table>
+
+[成果物を見る 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [成果物を見る 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
+
+**プロンプト**
+
+```text
+你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
+启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
+要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
+修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
+最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
+
+```
+
+---
+
+<a id="case-10"></a>
+### ケース 10: [rsync 性能改善の反復](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
+
+**個々の最適化を追跡し、二種類の測定記録を分けて読む**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 性能改善の反復" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 性能改善の反復" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-research"></a>
+## 🧪 アルゴリズム研究
+
+<a id="case-41"></a>
+### ケース 41: [時系列の欠損補完を反復改善](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+
+**固定設定で実験結果、アブレーション、再検証を追う**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="時系列の欠損補完を反復改善" height="280"></a>
+</p>
 
 ---
 
@@ -720,161 +803,78 @@
 ---
 
 
-<a id="category-research"></a>
-## 🧪 アルゴリズム研究
+<a id="category-engineering"></a>
+## 🛠️ デバッグと機能開発
 
-<a id="case-41"></a>
-### ケース 41: [時系列の欠損補完を反復改善](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+<a id="case-1"></a>
+### ケース 1: [端末のネイティブなスクロール位置を保持](https://github.com/MiniMax-AI/minimax-code/pull/306) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**固定設定で実験結果、アブレーション、再検証を追う**
+**アクティビティ行が消えても長い会話の表示位置を維持する**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="時系列の欠損補完を反復改善" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-2"></a>
+### ケース 2: [競合した SQLite 書き込みを再試行](https://github.com/MiniMax-AI/minimax-code/pull/319) (投稿者 [@zch0227](https://github.com/zch0227))
 
-<a id="category-science"></a>
-## 🔬 科学計算と画像処理
+**タスクの受付、状態更新、終了にまたがる同時書き込みを扱う**
 
-<a id="case-42"></a>
-### ケース 42: [フェーズドアレイアンテナを再構成](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
-
-**ビーム方向とサイドローブ制約の下で位相調整を可視化する**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="フェーズドアレイアンテナを再構成" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-43"></a>
-### ケース 43: [支持構造を最適化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+<a id="case-3"></a>
+### ケース 3: [終了しない区間分割を防ぐ](https://github.com/moment/luxon/pull/1810) (投稿者 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**一定の荷重と材料量の下で材料配置を探索する**
+**負の期間と進まない境界を検出し、正しい日付処理を保つ**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="支持構造を最適化" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-44"></a>
-### ケース 44: [弾性物体をシミュレーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+<a id="case-4"></a>
+### ケース 4: [要素のない ISO 期間を拒否](https://github.com/moment/luxon/pull/1812) (投稿者 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**物理条件を変えながら再構成した物体を比較する**
+**要素の欠落と有効な明示的ゼロを区別する**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="弾性物体をシミュレーション" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-45"></a>
-### ケース 45: [二台のカメラ映像をパノラマ合成](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+<a id="case-5"></a>
+### ケース 5: [選択できる端末テーマ](https://github.com/MiniMax-AI/minimax-code/pull/311) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**二つの入力画面と位置合わせ後のパノラマを比較する**
+**名前付き配色、ライブプレビュー、設定の保存を組み合わせる**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="二台のカメラ映像をパノラマ合成" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-6"></a>
+### ケース 6: [claude-tap を mcode に対応させる](https://github.com/liaohch3/claude-tap/pull/441) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-<a id="category-presentation"></a>
-## 📑 プレゼンテーション
+**記録のフィルタリングとトレース表示を備えたクライアント連携を追加する**
 
-<a id="case-46"></a>
-### ケース 46: [電気自動車業界のプレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
-
-**地域比較、グラフ、結論をコンサルティング風にまとめる**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="電気自動車業界のプレゼンテーション" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="電気自動車業界のプレゼンテーション" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
-<a id="case-47"></a>
-### ケース 47: [生成動画市場のプレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+<a id="case-7"></a>
+### ケース 7: [動的ワークフローの確認と修復](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**高密度の市場情報を統一した図表で整理する**
+**実行前に構成を確認し、失敗したステップを修復する**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="生成動画市場のプレゼンテーション" height="280"></a>
-</p>
+<sub>2026-09-17</sub>
 
 ---
 
-<a id="case-48"></a>
-### ケース 48: [CampusOS の製品プレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+<a id="case-8"></a>
+### ケース 8: [acpx 用の mcode プロファイル](https://github.com/openclaw/acpx/pull/503) (投稿者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**製品と機能群を一貫した視覚ストーリーにする**
+**組み込み ACP エージェント設定で MiniMax Code を接続する**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS の製品プレゼンテーション" height="280"></a>
-</p>
-
----
-
-<a id="case-49"></a>
-### ケース 49: [文明の起源を学ぶ教材](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
-
-**博物館風の画像と文字でスペイン語の教材ページを作る**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="文明の起源を学ぶ教材" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="文明の起源を学ぶ教材" height="280"></a>
-</p>
-
----
-
-<a id="case-50"></a>
-### ケース 50: [エディトリアル風の講演](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
-
-**モノクロの文字と図で抽象的な考えにリズムを与える**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="エディトリアル風の講演" height="280"></a>
-</p>
-
----
-
-<a id="case-51"></a>
-### ケース 51: [イラスト付きフォニックス教材](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
-
-**共通の語尾を繰り返しのイラストと授業活動につなげる**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="イラスト付きフォニックス教材" height="280"></a>
-</p>
-
----
-
-<a id="case-52"></a>
-### ケース 52: [エベレストの地形プレゼンテーション](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
-
-**標高、ルート、リスクを図と比較ページで説明する**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="エベレストの地形プレゼンテーション" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="エベレストの地形プレゼンテーション" height="280"></a>
-</p>
-
----
-
-<a id="case-53"></a>
-### ケース 53: [バリ島七日間の旅行案内](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
-
-**旅程を統一された日別ページと全体像にまとめる**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="バリ島七日間の旅行案内" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="バリ島七日間の旅行案内" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 

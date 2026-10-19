@@ -5,17 +5,17 @@
     "numbering_order": "set-contiguous",
     "menu_policy": "category-menu",
     "category_anchors": [
-      "category-engineering",
-      "category-performance",
       "category-scenes",
       "category-games",
       "category-web",
       "category-visualization",
       "category-multimodal",
-      "category-finance",
-      "category-research",
+      "category-presentation",
       "category-science",
-      "category-presentation"
+      "category-performance",
+      "category-research",
+      "category-finance",
+      "category-engineering"
     ]
   },
   "presentation": {
@@ -30,7 +30,10 @@
     "case_image_height": 280,
     "show_type_labels": false,
     "show_case_notes": false,
-    "show_promotion": false
+    "show_promotion": false,
+    "two_image_layout": "two-columns",
+    "visual_categories_first": true,
+    "paired_image_height": 210
   },
   "structured_data": {
     "path": "data/use-cases.json",

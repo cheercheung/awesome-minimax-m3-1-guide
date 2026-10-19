@@ -18,134 +18,17 @@
 
 | 分类 | 案例数 |
 |---|---|
-| [🛠️ 调试与功能开发](#category-engineering) | 8 |
-| [⚡ 性能优化](#category-performance) | 2 |
 | [🏛️ 三维交互](#category-scenes) | 4 |
 | [🎮 游戏](#category-games) | 4 |
 | [🖥️ 网页与界面](#category-web) | 6 |
 | [📊 数据可视化](#category-visualization) | 4 |
 | [🎬 多模态工作流](#category-multimodal) | 6 |
-| [📈 金融研究与建模](#category-finance) | 6 |
-| [🧪 算法研究](#category-research) | 1 |
-| [🔬 科学计算与视觉处理](#category-science) | 4 |
 | [📑 演示文稿](#category-presentation) | 8 |
-
-<a id="category-engineering"></a>
-## 🛠️ 调试与功能开发
-
-<a id="case-1"></a>
-### 案例 1: [TUI 原生滚动修复](https://github.com/MiniMax-AI/minimax-code/pull/306) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**原生终端滚动边界的修复方案、实际代码改动与回归测试**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-2"></a>
-### 案例 2: [SQLite WAL 并发写重试](https://github.com/MiniMax-AI/minimax-code/pull/319) (作者 [@zch0227](https://github.com/zch0227))
-
-**SQLite WAL 写竞争的异步重试方案与提交的回归测试**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-3"></a>
-### 案例 3: [Luxon 区间分割终止条件](https://github.com/moment/luxon/pull/1810) (作者 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**Luxon 区间分割的终止条件修复与测试**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-4"></a>
-### 案例 4: [Luxon 无组件 ISO 时长校验](https://github.com/moment/luxon/pull/1812) (作者 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**ISO 时长解析边界修复与测试**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-5"></a>
-### 案例 5: [MiniMax Code 主题系统](https://github.com/MiniMax-AI/minimax-code/pull/311) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**TUI 具名主题、明暗锁定和自定义主题实现**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-6"></a>
-### 案例 6: [claude-tap 接入 MiniMax Code](https://github.com/liaohch3/claude-tap/pull/441) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**claude-tap 的 mcode 客户端接入与 trace-viewer 证据**
-
-<sub>2026-08-16</sub>
-
----
-
-<a id="case-7"></a>
-### 案例 7: [动态工作流插件](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**动态工作流插件的可视化审阅、执行与修复流程**
-
-<sub>2026-09-17</sub>
-
----
-
-<a id="case-8"></a>
-### 案例 8: [acpx 内置 mcode profile](https://github.com/openclaw/acpx/pull/503) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**acpx 增加内置 mcode ACP profile 的代码与验证记录**
-
-<sub>2026-08-16</sub>
-
----
-
-
-<a id="category-performance"></a>
-## ⚡ 性能优化
-
-<a id="case-9"></a>
-### 案例 9: [Flowdesk 工单系统性能优化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
-
-**Flowdesk 的问题复现、性能定位、修复与附件三轮复测记录**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk 工单系统性能优化" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk 工单系统性能优化" height="280"></a>
-</p>
-
-[查看成果 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [查看成果 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
-
-**提示词**
-
-```text
-你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
-启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
-要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
-修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
-最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
-
-```
-
----
-
-<a id="case-10"></a>
-### 案例 10: [rsync 优化的逐提交实验](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
-
-**rsync delta/update 的逐提交优化过程与手册给出的两套基准图**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 优化的逐提交实验" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 优化的逐提交实验" height="280"></a>
-</p>
-
----
-
+| [🔬 科学计算与视觉处理](#category-science) | 4 |
+| [⚡ 性能优化](#category-performance) | 2 |
+| [🧪 算法研究](#category-research) | 1 |
+| [📈 金融研究与建模](#category-finance) | 6 |
+| [🛠️ 调试与功能开发](#category-engineering) | 8 |
 
 <a id="category-scenes"></a>
 ## 🏛️ 三维交互
@@ -543,10 +426,10 @@
 
 **参考视频到 MiniMax Design 宣传片的风格改编结果**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design 品牌短片改编" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design 品牌短片改编" height="280"></a>
-</p>
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design 品牌短片改编" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design 品牌短片改编" height="210"></a></td>
+</tr></tbody></table>
 
 **提示词**
 
@@ -610,6 +493,206 @@
 ```text
 做一下这个题
 ```
+
+---
+
+
+<a id="category-presentation"></a>
+## 📑 演示文稿
+
+<a id="case-46"></a>
+### 案例 46: [全球电动车行业演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
+
+**电动车行业研究的咨询报告式页面编排**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="全球电动车行业演示" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="全球电动车行业演示" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-47"></a>
+### 案例 47: [生成式视频市场演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+
+**生成式视频市场分析的高密度图表页面**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="生成式视频市场演示" height="280"></a>
+</p>
+
+---
+
+<a id="case-48"></a>
+### 案例 48: [CampusOS 产品演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+
+**CampusOS 产品介绍的深紫色视觉页面**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS 产品演示" height="280"></a>
+</p>
+
+---
+
+<a id="case-49"></a>
+### 案例 49: [文明起源西班牙语文化课件](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
+
+**文明起源主题的西班牙语文化课件页面**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="文明起源西班牙语文化课件" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="文明起源西班牙语文化课件" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-50"></a>
+### 案例 50: [折叠：极简编辑式演讲](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
+
+**黑白编辑风演讲页面与折痕图解**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="折叠：极简编辑式演讲" height="280"></a>
+</p>
+
+---
+
+<a id="case-51"></a>
+### 案例 51: [自然拼读儿童课件](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
+
+**自然拼读词例与儿童插画课件页面**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="自然拼读儿童课件" height="280"></a>
+</p>
+
+---
+
+<a id="case-52"></a>
+### 案例 52: [珠峰地形与路线演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
+
+**珠峰主题的地形剖面和风险矩阵页面**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="珠峰地形与路线演示" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="珠峰地形与路线演示" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-53"></a>
+### 案例 53: [巴厘岛七日旅行简报](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
+
+**巴厘岛行程的图文日程与七日总览页面**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="巴厘岛七日旅行简报" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="巴厘岛七日旅行简报" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-science"></a>
+## 🔬 科学计算与视觉处理
+
+<a id="case-42"></a>
+### 案例 42: [失效相控阵天线重构](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
+
+**失效相控阵天线的相位调整与波束优化可视化**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="失效相控阵天线重构" height="280"></a>
+</p>
+
+---
+
+<a id="case-43"></a>
+### 案例 43: [支撑结构拓扑优化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+
+**固定载荷和材料约束下的结构拓扑优化可视化**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="支撑结构拓扑优化" height="280"></a>
+</p>
+
+---
+
+<a id="case-44"></a>
+### 案例 44: [弹性物体物理仿真演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+
+**不同物理参数下的弹性物体仿真可视化**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="弹性物体物理仿真演示" height="280"></a>
+</p>
+
+---
+
+<a id="case-45"></a>
+### 案例 45: [CPU 双路视频全景拼接效果](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+
+**CPU 双路视频对齐与全景拼接的图像效果**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="CPU 双路视频全景拼接效果" height="280"></a>
+</p>
+
+---
+
+
+<a id="category-performance"></a>
+## ⚡ 性能优化
+
+<a id="case-9"></a>
+### 案例 9: [Flowdesk 工单系统性能优化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
+
+**Flowdesk 的问题复现、性能定位、修复与附件三轮复测记录**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk 工单系统性能优化" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk 工单系统性能优化" height="210"></a></td>
+</tr></tbody></table>
+
+[查看成果 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [查看成果 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
+
+**提示词**
+
+```text
+你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
+启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
+要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
+修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
+最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
+
+```
+
+---
+
+<a id="case-10"></a>
+### 案例 10: [rsync 优化的逐提交实验](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
+
+**rsync delta/update 的逐提交优化过程与手册给出的两套基准图**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 优化的逐提交实验" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 优化的逐提交实验" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-research"></a>
+## 🧪 算法研究
+
+<a id="case-41"></a>
+### 案例 41: [时间序列缺失值填补的实验迭代](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+
+**时间序列填补实验中的迭代、消融和复测曲线**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="时间序列缺失值填补的实验迭代" height="280"></a>
+</p>
 
 ---
 
@@ -720,161 +803,78 @@
 ---
 
 
-<a id="category-research"></a>
-## 🧪 算法研究
+<a id="category-engineering"></a>
+## 🛠️ 调试与功能开发
 
-<a id="case-41"></a>
-### 案例 41: [时间序列缺失值填补的实验迭代](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+<a id="case-1"></a>
+### 案例 1: [TUI 原生滚动修复](https://github.com/MiniMax-AI/minimax-code/pull/306) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**时间序列填补实验中的迭代、消融和复测曲线**
+**原生终端滚动边界的修复方案、实际代码改动与回归测试**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="时间序列缺失值填补的实验迭代" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-2"></a>
+### 案例 2: [SQLite WAL 并发写重试](https://github.com/MiniMax-AI/minimax-code/pull/319) (作者 [@zch0227](https://github.com/zch0227))
 
-<a id="category-science"></a>
-## 🔬 科学计算与视觉处理
+**SQLite WAL 写竞争的异步重试方案与提交的回归测试**
 
-<a id="case-42"></a>
-### 案例 42: [失效相控阵天线重构](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
-
-**失效相控阵天线的相位调整与波束优化可视化**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="失效相控阵天线重构" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-43"></a>
-### 案例 43: [支撑结构拓扑优化](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+<a id="case-3"></a>
+### 案例 3: [Luxon 区间分割终止条件](https://github.com/moment/luxon/pull/1810) (作者 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**固定载荷和材料约束下的结构拓扑优化可视化**
+**Luxon 区间分割的终止条件修复与测试**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="支撑结构拓扑优化" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-44"></a>
-### 案例 44: [弹性物体物理仿真演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+<a id="case-4"></a>
+### 案例 4: [Luxon 无组件 ISO 时长校验](https://github.com/moment/luxon/pull/1812) (作者 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**不同物理参数下的弹性物体仿真可视化**
+**ISO 时长解析边界修复与测试**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="弹性物体物理仿真演示" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-45"></a>
-### 案例 45: [CPU 双路视频全景拼接效果](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+<a id="case-5"></a>
+### 案例 5: [MiniMax Code 主题系统](https://github.com/MiniMax-AI/minimax-code/pull/311) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**CPU 双路视频对齐与全景拼接的图像效果**
+**TUI 具名主题、明暗锁定和自定义主题实现**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="CPU 双路视频全景拼接效果" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-6"></a>
+### 案例 6: [claude-tap 接入 MiniMax Code](https://github.com/liaohch3/claude-tap/pull/441) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-<a id="category-presentation"></a>
-## 📑 演示文稿
+**claude-tap 的 mcode 客户端接入与 trace-viewer 证据**
 
-<a id="case-46"></a>
-### 案例 46: [全球电动车行业演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
-
-**电动车行业研究的咨询报告式页面编排**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="全球电动车行业演示" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="全球电动车行业演示" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
-<a id="case-47"></a>
-### 案例 47: [生成式视频市场演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+<a id="case-7"></a>
+### 案例 7: [动态工作流插件](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**生成式视频市场分析的高密度图表页面**
+**动态工作流插件的可视化审阅、执行与修复流程**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="生成式视频市场演示" height="280"></a>
-</p>
+<sub>2026-09-17</sub>
 
 ---
 
-<a id="case-48"></a>
-### 案例 48: [CampusOS 产品演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+<a id="case-8"></a>
+### 案例 8: [acpx 内置 mcode profile](https://github.com/openclaw/acpx/pull/503) (作者 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**CampusOS 产品介绍的深紫色视觉页面**
+**acpx 增加内置 mcode ACP profile 的代码与验证记录**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS 产品演示" height="280"></a>
-</p>
-
----
-
-<a id="case-49"></a>
-### 案例 49: [文明起源西班牙语文化课件](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
-
-**文明起源主题的西班牙语文化课件页面**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="文明起源西班牙语文化课件" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="文明起源西班牙语文化课件" height="280"></a>
-</p>
-
----
-
-<a id="case-50"></a>
-### 案例 50: [折叠：极简编辑式演讲](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
-
-**黑白编辑风演讲页面与折痕图解**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="折叠：极简编辑式演讲" height="280"></a>
-</p>
-
----
-
-<a id="case-51"></a>
-### 案例 51: [自然拼读儿童课件](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
-
-**自然拼读词例与儿童插画课件页面**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="自然拼读儿童课件" height="280"></a>
-</p>
-
----
-
-<a id="case-52"></a>
-### 案例 52: [珠峰地形与路线演示](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
-
-**珠峰主题的地形剖面和风险矩阵页面**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="珠峰地形与路线演示" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="珠峰地形与路线演示" height="280"></a>
-</p>
-
----
-
-<a id="case-53"></a>
-### 案例 53: [巴厘岛七日旅行简报](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
-
-**巴厘岛行程的图文日程与七日总览页面**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="巴厘岛七日旅行简报" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="巴厘岛七日旅行简报" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 

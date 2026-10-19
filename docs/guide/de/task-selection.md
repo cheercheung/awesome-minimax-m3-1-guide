@@ -6,17 +6,17 @@ Beginnen Sie mit dem Ergebnis: Codeänderung, interaktive Seite, Bericht, Arbeit
 
 | Aufgabenfamilie | Fälle |
 |---|---|
-| [Fehlersuche und Funktionen](../../../README_de.md#category-engineering) | 8 |
-| [Leistungsoptimierung](../../../README_de.md#category-performance) | 2 |
 | [3D-Interaktion](../../../README_de.md#category-scenes) | 4 |
 | [Spiele](../../../README_de.md#category-games) | 4 |
 | [Weboberflächen](../../../README_de.md#category-web) | 6 |
 | [Datenvisualisierung](../../../README_de.md#category-visualization) | 4 |
 | [Multimodale Workflows](../../../README_de.md#category-multimodal) | 6 |
-| [Finanzanalyse und Modellierung](../../../README_de.md#category-finance) | 6 |
-| [Algorithmenforschung](../../../README_de.md#category-research) | 1 |
-| [Wissenschaftliches und visuelles Rechnen](../../../README_de.md#category-science) | 4 |
 | [Präsentationen](../../../README_de.md#category-presentation) | 8 |
+| [Wissenschaftliches und visuelles Rechnen](../../../README_de.md#category-science) | 4 |
+| [Leistungsoptimierung](../../../README_de.md#category-performance) | 2 |
+| [Algorithmenforschung](../../../README_de.md#category-research) | 1 |
+| [Finanzanalyse und Modellierung](../../../README_de.md#category-finance) | 6 |
+| [Fehlersuche und Funktionen](../../../README_de.md#category-engineering) | 8 |
 
 ### Referenz
 

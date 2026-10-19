@@ -6,17 +6,17 @@ Empieza por el entregable: cambio de código, página interactiva, informe, libr
 
 | Familia de tareas | Casos |
 |---|---|
-| [Depuración y funciones](../../../README_es.md#category-engineering) | 8 |
-| [Optimización del rendimiento](../../../README_es.md#category-performance) | 2 |
 | [Interacción 3D](../../../README_es.md#category-scenes) | 4 |
 | [Juegos](../../../README_es.md#category-games) | 4 |
 | [Interfaces web](../../../README_es.md#category-web) | 6 |
 | [Visualización de datos](../../../README_es.md#category-visualization) | 4 |
 | [Flujos multimodales](../../../README_es.md#category-multimodal) | 6 |
-| [Investigación y modelos financieros](../../../README_es.md#category-finance) | 6 |
-| [Investigación algorítmica](../../../README_es.md#category-research) | 1 |
-| [Computación científica y visual](../../../README_es.md#category-science) | 4 |
 | [Presentaciones](../../../README_es.md#category-presentation) | 8 |
+| [Computación científica y visual](../../../README_es.md#category-science) | 4 |
+| [Optimización del rendimiento](../../../README_es.md#category-performance) | 2 |
+| [Investigación algorítmica](../../../README_es.md#category-research) | 1 |
+| [Investigación y modelos financieros](../../../README_es.md#category-finance) | 6 |
+| [Depuración y funciones](../../../README_es.md#category-engineering) | 8 |
 
 ### Referencia
 

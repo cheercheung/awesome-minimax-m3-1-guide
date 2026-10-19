@@ -18,134 +18,17 @@
 
 | Categoria | Casos |
 |---|---|
-| [🛠️ Depuração e funcionalidades](#category-engineering) | 8 |
-| [⚡ Otimização de desempenho](#category-performance) | 2 |
 | [🏛️ Interação 3D](#category-scenes) | 4 |
 | [🎮 Jogos](#category-games) | 4 |
 | [🖥️ Interfaces web](#category-web) | 6 |
 | [📊 Visualização de dados](#category-visualization) | 4 |
 | [🎬 Fluxos multimodais](#category-multimodal) | 6 |
-| [📈 Pesquisa e modelagem financeira](#category-finance) | 6 |
-| [🧪 Pesquisa de algoritmos](#category-research) | 1 |
-| [🔬 Computação científica e visual](#category-science) | 4 |
 | [📑 Apresentações](#category-presentation) | 8 |
-
-<a id="category-engineering"></a>
-## 🛠️ Depuração e funcionalidades
-
-<a id="case-1"></a>
-### Caso 1: [Preservar a rolagem nativa do terminal](https://github.com/MiniMax-AI/minimax-code/pull/306) (por [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Manter a posição de uma conversa longa quando as linhas de atividade desaparecem**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-2"></a>
-### Caso 2: [Repetir escritas SQLite em disputa](https://github.com/MiniMax-AI/minimax-code/pull/319) (por [@zch0227](https://github.com/zch0227))
-
-**Tratar gravações simultâneas na admissão, atualização e conclusão de tarefas**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-3"></a>
-### Caso 3: [Interromper divisões de intervalos infinitas](https://github.com/moment/luxon/pull/1810) (por [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**Validar durações negativas e limites parados preservando comportamentos válidos**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-4"></a>
-### Caso 4: [Rejeitar durações ISO sem componentes](https://github.com/moment/luxon/pull/1812) (por [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**Distinguir uma duração vazia de um zero explícito válido**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-5"></a>
-### Caso 5: [Temas selecionáveis para o terminal](https://github.com/MiniMax-AI/minimax-code/pull/311) (por [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Combinar paletas nomeadas, prévia ao vivo e configurações persistentes**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-6"></a>
-### Caso 6: [Conectar mcode ao claude-tap](https://github.com/liaohch3/claude-tap/pull/441) (por [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Integrar o cliente de programação com registros filtrados e evidências de rastreamento**
-
-<sub>2026-08-16</sub>
-
----
-
-<a id="case-7"></a>
-### Caso 7: [Revisar e reparar fluxos dinâmicos](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (por [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Inspecionar a topologia antes da execução e reparar etapas com falha**
-
-<sub>2026-09-17</sub>
-
----
-
-<a id="case-8"></a>
-### Caso 8: [Um perfil mcode para acpx](https://github.com/openclaw/acpx/pull/503) (por [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Conectar MiniMax Code por um agente ACP integrado**
-
-<sub>2026-08-16</sub>
-
----
-
-
-<a id="category-performance"></a>
-## ⚡ Otimização de desempenho
-
-<a id="case-9"></a>
-### Caso 9: [Analisar e otimizar o Flowdesk](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
-
-**Localizar telas lentas, preservar operações e comparar três rodadas de medição**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Analisar e otimizar o Flowdesk" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Analisar e otimizar o Flowdesk" height="280"></a>
-</p>
-
-[Ver resultado 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [Ver resultado 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
-
-**Prompt**
-
-```text
-你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
-启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
-要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
-修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
-最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
-
-```
-
----
-
-<a id="case-10"></a>
-### Caso 10: [Iterar sobre o desempenho do rsync](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
-
-**Acompanhar cada otimização mantendo separados os dois registros de avaliação**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="Iterar sobre o desempenho do rsync" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="Iterar sobre o desempenho do rsync" height="280"></a>
-</p>
-
----
-
+| [🔬 Computação científica e visual](#category-science) | 4 |
+| [⚡ Otimização de desempenho](#category-performance) | 2 |
+| [🧪 Pesquisa de algoritmos](#category-research) | 1 |
+| [📈 Pesquisa e modelagem financeira](#category-finance) | 6 |
+| [🛠️ Depuração e funcionalidades](#category-engineering) | 8 |
 
 <a id="category-scenes"></a>
 ## 🏛️ Interação 3D
@@ -543,10 +426,10 @@
 
 **Transformar imagens de referência em uma nova sequência de marca**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="Refazer um vídeo de marca MiniMax Design" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="Refazer um vídeo de marca MiniMax Design" height="280"></a>
-</p>
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="Refazer um vídeo de marca MiniMax Design" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="Refazer um vídeo de marca MiniMax Design" height="210"></a></td>
+</tr></tbody></table>
 
 **Prompt**
 
@@ -610,6 +493,206 @@
 ```text
 做一下这个题
 ```
+
+---
+
+
+<a id="category-presentation"></a>
+## 📑 Apresentações
+
+<a id="case-46"></a>
+### Caso 46: [Uma apresentação do setor de veículos elétricos](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
+
+**Combinar regiões, gráficos e conclusões em um layout de consultoria**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="Uma apresentação do setor de veículos elétricos" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="Uma apresentação do setor de veículos elétricos" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-47"></a>
+### Caso 47: [Uma apresentação do mercado de vídeo generativo](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+
+**Organizar informações densas por gráficos e tabelas coordenados**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="Uma apresentação do mercado de vídeo generativo" height="280"></a>
+</p>
+
+---
+
+<a id="case-48"></a>
+### Caso 48: [Uma apresentação do produto CampusOS](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+
+**Construir uma narrativa visual coerente sobre o produto e seus módulos**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="Uma apresentação do produto CampusOS" height="280"></a>
+</p>
+
+---
+
+<a id="case-49"></a>
+### Caso 49: [Uma aula sobre a origem da civilização](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
+
+**Usar imagens de museu e tipografia em páginas didáticas em espanhol**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="Uma aula sobre a origem da civilização" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="Uma aula sobre a origem da civilização" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-50"></a>
+### Caso 50: [Uma palestra em estilo editorial](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
+
+**Dar ritmo a ideias abstratas com tipografia monocromática e diagramas**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="Uma palestra em estilo editorial" height="280"></a>
+</p>
+
+---
+
+<a id="case-51"></a>
+### Caso 51: [Uma aula ilustrada de fonética](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
+
+**Conectar uma família de palavras a ilustrações e atividades de sala**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="Uma aula ilustrada de fonética" height="280"></a>
+</p>
+
+---
+
+<a id="case-52"></a>
+### Caso 52: [Uma apresentação do relevo do Everest](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
+
+**Explicar altitude, rotas e riscos por diagramas e comparações**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="Uma apresentação do relevo do Everest" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="Uma apresentação do relevo do Everest" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-53"></a>
+### Caso 53: [Um roteiro de sete dias em Bali](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
+
+**Transformar o itinerário em páginas diárias e uma visão geral da viagem**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="Um roteiro de sete dias em Bali" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="Um roteiro de sete dias em Bali" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-science"></a>
+## 🔬 Computação científica e visual
+
+<a id="case-42"></a>
+### Caso 42: [Reconfigurar uma antena de arranjo em fase](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
+
+**Visualizar ajustes de fase sob restrições de feixe e lóbulos laterais**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="Reconfigurar uma antena de arranjo em fase" height="280"></a>
+</p>
+
+---
+
+<a id="case-43"></a>
+### Caso 43: [Otimizar uma estrutura de suporte](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+
+**Explorar materiais com carga fixa e orçamento de material**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="Otimizar uma estrutura de suporte" height="280"></a>
+</p>
+
+---
+
+<a id="case-44"></a>
+### Caso 44: [Simular objetos elásticos](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+
+**Comparar objetos reconstruídos sob condições físicas variáveis**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="Simular objetos elásticos" height="280"></a>
+</p>
+
+---
+
+<a id="case-45"></a>
+### Caso 45: [Costurar vídeos de duas câmeras](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+
+**Comparar duas entradas com a panorâmica alinhada resultante**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="Costurar vídeos de duas câmeras" height="280"></a>
+</p>
+
+---
+
+
+<a id="category-performance"></a>
+## ⚡ Otimização de desempenho
+
+<a id="case-9"></a>
+### Caso 9: [Analisar e otimizar o Flowdesk](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
+
+**Localizar telas lentas, preservar operações e comparar três rodadas de medição**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Analisar e otimizar o Flowdesk" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Analisar e otimizar o Flowdesk" height="210"></a></td>
+</tr></tbody></table>
+
+[Ver resultado 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [Ver resultado 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
+
+**Prompt**
+
+```text
+你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
+启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
+要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
+修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
+最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
+
+```
+
+---
+
+<a id="case-10"></a>
+### Caso 10: [Iterar sobre o desempenho do rsync](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
+
+**Acompanhar cada otimização mantendo separados os dois registros de avaliação**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="Iterar sobre o desempenho do rsync" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="Iterar sobre o desempenho do rsync" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-research"></a>
+## 🧪 Pesquisa de algoritmos
+
+<a id="case-41"></a>
+### Caso 41: [Iterar sobre imputação de séries temporais](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+
+**Acompanhar experimentos, ablações e novos testes com uma configuração fixa**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="Iterar sobre imputação de séries temporais" height="280"></a>
+</p>
 
 ---
 
@@ -720,161 +803,78 @@
 ---
 
 
-<a id="category-research"></a>
-## 🧪 Pesquisa de algoritmos
+<a id="category-engineering"></a>
+## 🛠️ Depuração e funcionalidades
 
-<a id="case-41"></a>
-### Caso 41: [Iterar sobre imputação de séries temporais](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+<a id="case-1"></a>
+### Caso 1: [Preservar a rolagem nativa do terminal](https://github.com/MiniMax-AI/minimax-code/pull/306) (por [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Acompanhar experimentos, ablações e novos testes com uma configuração fixa**
+**Manter a posição de uma conversa longa quando as linhas de atividade desaparecem**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="Iterar sobre imputação de séries temporais" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-2"></a>
+### Caso 2: [Repetir escritas SQLite em disputa](https://github.com/MiniMax-AI/minimax-code/pull/319) (por [@zch0227](https://github.com/zch0227))
 
-<a id="category-science"></a>
-## 🔬 Computação científica e visual
+**Tratar gravações simultâneas na admissão, atualização e conclusão de tarefas**
 
-<a id="case-42"></a>
-### Caso 42: [Reconfigurar uma antena de arranjo em fase](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
-
-**Visualizar ajustes de fase sob restrições de feixe e lóbulos laterais**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="Reconfigurar uma antena de arranjo em fase" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-43"></a>
-### Caso 43: [Otimizar uma estrutura de suporte](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+<a id="case-3"></a>
+### Caso 3: [Interromper divisões de intervalos infinitas](https://github.com/moment/luxon/pull/1810) (por [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**Explorar materiais com carga fixa e orçamento de material**
+**Validar durações negativas e limites parados preservando comportamentos válidos**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="Otimizar uma estrutura de suporte" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-44"></a>
-### Caso 44: [Simular objetos elásticos](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+<a id="case-4"></a>
+### Caso 4: [Rejeitar durações ISO sem componentes](https://github.com/moment/luxon/pull/1812) (por [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**Comparar objetos reconstruídos sob condições físicas variáveis**
+**Distinguir uma duração vazia de um zero explícito válido**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="Simular objetos elásticos" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-45"></a>
-### Caso 45: [Costurar vídeos de duas câmeras](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+<a id="case-5"></a>
+### Caso 5: [Temas selecionáveis para o terminal](https://github.com/MiniMax-AI/minimax-code/pull/311) (por [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Comparar duas entradas com a panorâmica alinhada resultante**
+**Combinar paletas nomeadas, prévia ao vivo e configurações persistentes**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="Costurar vídeos de duas câmeras" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-6"></a>
+### Caso 6: [Conectar mcode ao claude-tap](https://github.com/liaohch3/claude-tap/pull/441) (por [@hetaoBackend](https://github.com/hetaoBackend))
 
-<a id="category-presentation"></a>
-## 📑 Apresentações
+**Integrar o cliente de programação com registros filtrados e evidências de rastreamento**
 
-<a id="case-46"></a>
-### Caso 46: [Uma apresentação do setor de veículos elétricos](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
-
-**Combinar regiões, gráficos e conclusões em um layout de consultoria**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="Uma apresentação do setor de veículos elétricos" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="Uma apresentação do setor de veículos elétricos" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
-<a id="case-47"></a>
-### Caso 47: [Uma apresentação do mercado de vídeo generativo](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+<a id="case-7"></a>
+### Caso 7: [Revisar e reparar fluxos dinâmicos](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (por [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Organizar informações densas por gráficos e tabelas coordenados**
+**Inspecionar a topologia antes da execução e reparar etapas com falha**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="Uma apresentação do mercado de vídeo generativo" height="280"></a>
-</p>
+<sub>2026-09-17</sub>
 
 ---
 
-<a id="case-48"></a>
-### Caso 48: [Uma apresentação do produto CampusOS](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+<a id="case-8"></a>
+### Caso 8: [Um perfil mcode para acpx](https://github.com/openclaw/acpx/pull/503) (por [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Construir uma narrativa visual coerente sobre o produto e seus módulos**
+**Conectar MiniMax Code por um agente ACP integrado**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="Uma apresentação do produto CampusOS" height="280"></a>
-</p>
-
----
-
-<a id="case-49"></a>
-### Caso 49: [Uma aula sobre a origem da civilização](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
-
-**Usar imagens de museu e tipografia em páginas didáticas em espanhol**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="Uma aula sobre a origem da civilização" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="Uma aula sobre a origem da civilização" height="280"></a>
-</p>
-
----
-
-<a id="case-50"></a>
-### Caso 50: [Uma palestra em estilo editorial](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
-
-**Dar ritmo a ideias abstratas com tipografia monocromática e diagramas**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="Uma palestra em estilo editorial" height="280"></a>
-</p>
-
----
-
-<a id="case-51"></a>
-### Caso 51: [Uma aula ilustrada de fonética](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
-
-**Conectar uma família de palavras a ilustrações e atividades de sala**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="Uma aula ilustrada de fonética" height="280"></a>
-</p>
-
----
-
-<a id="case-52"></a>
-### Caso 52: [Uma apresentação do relevo do Everest](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
-
-**Explicar altitude, rotas e riscos por diagramas e comparações**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="Uma apresentação do relevo do Everest" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="Uma apresentação do relevo do Everest" height="280"></a>
-</p>
-
----
-
-<a id="case-53"></a>
-### Caso 53: [Um roteiro de sete dias em Bali](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
-
-**Transformar o itinerário em páginas diárias e uma visão geral da viagem**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="Um roteiro de sete dias em Bali" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="Um roteiro de sete dias em Bali" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 

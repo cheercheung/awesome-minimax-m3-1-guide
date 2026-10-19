@@ -18,134 +18,17 @@
 
 | 분류 | 사례 수 |
 |---|---|
-| [🛠️ 디버깅과 기능 개발](#category-engineering) | 8 |
-| [⚡ 성능 최적화](#category-performance) | 2 |
 | [🏛️ 3D 상호작용](#category-scenes) | 4 |
 | [🎮 게임](#category-games) | 4 |
 | [🖥️ 웹 인터페이스](#category-web) | 6 |
 | [📊 데이터 시각화](#category-visualization) | 4 |
 | [🎬 멀티모달 작업 흐름](#category-multimodal) | 6 |
-| [📈 금융 조사와 모델링](#category-finance) | 6 |
-| [🧪 알고리즘 연구](#category-research) | 1 |
-| [🔬 과학 계산과 시각 처리](#category-science) | 4 |
 | [📑 프레젠테이션](#category-presentation) | 8 |
-
-<a id="category-engineering"></a>
-## 🛠️ 디버깅과 기능 개발
-
-<a id="case-1"></a>
-### 사례 1: [터미널의 기본 스크롤 위치 유지](https://github.com/MiniMax-AI/minimax-code/pull/306) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**활동 행이 사라져도 긴 대화의 현재 표시 위치를 유지한다**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-2"></a>
-### 사례 2: [경합한 SQLite 쓰기 재시도](https://github.com/MiniMax-AI/minimax-code/pull/319) (작성자 [@zch0227](https://github.com/zch0227))
-
-**작업 수락, 상태 갱신, 종료에 걸친 동시 쓰기를 처리한다**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-3"></a>
-### 사례 3: [끝나지 않는 구간 분할 방지](https://github.com/moment/luxon/pull/1810) (작성자 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**음수 기간과 멈춘 경계를 검사하면서 올바른 달력 동작을 보존한다**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-4"></a>
-### 사례 4: [구성 요소가 없는 ISO 기간 거부](https://github.com/moment/luxon/pull/1812) (작성자 [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**빈 기간과 명시적으로 유효한 0을 구분한다**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-5"></a>
-### 사례 5: [선택 가능한 터미널 테마](https://github.com/MiniMax-AI/minimax-code/pull/311) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**이름 있는 팔레트, 실시간 미리보기, 설정 저장을 결합한다**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-6"></a>
-### 사례 6: [claude-tap에 mcode 연결](https://github.com/liaohch3/claude-tap/pull/441) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**필터링된 기록과 추적 뷰어 증거를 갖춘 개발 클라이언트를 통합한다**
-
-<sub>2026-08-16</sub>
-
----
-
-<a id="case-7"></a>
-### 사례 7: [동적 작업 흐름 검토와 복구](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**실행 전에 구조를 검토하고 실패한 단계를 복구한다**
-
-<sub>2026-09-17</sub>
-
----
-
-<a id="case-8"></a>
-### 사례 8: [acpx용 mcode 프로필](https://github.com/openclaw/acpx/pull/503) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
-
-**내장 ACP 에이전트 프로필로 MiniMax Code를 연결한다**
-
-<sub>2026-08-16</sub>
-
----
-
-
-<a id="category-performance"></a>
-## ⚡ 성능 최적화
-
-<a id="case-9"></a>
-### 사례 9: [Flowdesk 분석과 성능 개선](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
-
-**느린 화면을 추적하고 업무 기능을 보존하며 세 차례 측정을 비교한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk 분석과 성능 개선" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk 분석과 성능 개선" height="280"></a>
-</p>
-
-[결과물 보기 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [결과물 보기 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
-
-**프롬프트**
-
-```text
-你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
-启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
-要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
-修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
-最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
-
-```
-
----
-
-<a id="case-10"></a>
-### 사례 10: [rsync 성능 개선 반복](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
-
-**각 최적화를 추적하고 두 벤치마크 기록을 따로 유지한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 성능 개선 반복" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 성능 개선 반복" height="280"></a>
-</p>
-
----
-
+| [🔬 과학 계산과 시각 처리](#category-science) | 4 |
+| [⚡ 성능 최적화](#category-performance) | 2 |
+| [🧪 알고리즘 연구](#category-research) | 1 |
+| [📈 금융 조사와 모델링](#category-finance) | 6 |
+| [🛠️ 디버깅과 기능 개발](#category-engineering) | 8 |
 
 <a id="category-scenes"></a>
 ## 🏛️ 3D 상호작용
@@ -543,10 +426,10 @@
 
 **참고 이미지를 새로운 브랜드 모션 시퀀스로 바꾼다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design 브랜드 영상 재구성" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design 브랜드 영상 재구성" height="280"></a>
-</p>
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design 브랜드 영상 재구성" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design 브랜드 영상 재구성" height="210"></a></td>
+</tr></tbody></table>
 
 **프롬프트**
 
@@ -610,6 +493,206 @@
 ```text
 做一下这个题
 ```
+
+---
+
+
+<a id="category-presentation"></a>
+## 📑 프레젠테이션
+
+<a id="case-46"></a>
+### 사례 46: [전기차 산업 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
+
+**지역 비교, 차트, 결론을 컨설팅 보고서 형식으로 결합한다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="전기차 산업 프레젠테이션" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="전기차 산업 프레젠테이션" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-47"></a>
+### 사례 47: [생성형 영상 시장 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+
+**밀도 높은 시장 정보를 통일된 차트와 표로 정리한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="생성형 영상 시장 프레젠테이션" height="280"></a>
+</p>
+
+---
+
+<a id="case-48"></a>
+### 사례 48: [CampusOS 제품 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+
+**제품과 모듈을 중심으로 일관된 시각적 이야기를 만든다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS 제품 프레젠테이션" height="280"></a>
+</p>
+
+---
+
+<a id="case-49"></a>
+### 사례 49: [문명의 기원 학습 자료](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
+
+**박물관 스타일 이미지와 글꼴로 스페인어 수업 페이지를 만든다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="문명의 기원 학습 자료" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="문명의 기원 학습 자료" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-50"></a>
+### 사례 50: [편집 디자인 스타일 강연](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
+
+**흑백 글자와 도식으로 추상적 생각에 명확한 리듬을 준다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="편집 디자인 스타일 강연" height="280"></a>
+</p>
+
+---
+
+<a id="case-51"></a>
+### 사례 51: [삽화가 있는 파닉스 수업](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
+
+**공통 어미를 반복되는 그림과 교실 활동에 연결한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="삽화가 있는 파닉스 수업" height="280"></a>
+</p>
+
+---
+
+<a id="case-52"></a>
+### 사례 52: [에베레스트 지형 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
+
+**고도, 경로, 위험을 도식과 비교 페이지로 설명한다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="에베레스트 지형 프레젠테이션" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="에베레스트 지형 프레젠테이션" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-53"></a>
+### 사례 53: [발리 7일 여행 안내](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
+
+**일정을 통일된 일별 페이지와 전체 여행 개요로 바꾼다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="발리 7일 여행 안내" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="발리 7일 여행 안내" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-science"></a>
+## 🔬 과학 계산과 시각 처리
+
+<a id="case-42"></a>
+### 사례 42: [위상 배열 안테나 재구성](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
+
+**빔 방향과 부엽 제약 아래의 위상 조정을 시각화한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="위상 배열 안테나 재구성" height="280"></a>
+</p>
+
+---
+
+<a id="case-43"></a>
+### 사례 43: [지지 구조 최적화](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+
+**고정 하중과 재료 예산 아래에서 재료 배치를 탐색한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="지지 구조 최적화" height="280"></a>
+</p>
+
+---
+
+<a id="case-44"></a>
+### 사례 44: [탄성 물체 시뮬레이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+
+**물리 조건을 바꾸며 재구성한 물체를 비교한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="탄성 물체 시뮬레이션" height="280"></a>
+</p>
+
+---
+
+<a id="case-45"></a>
+### 사례 45: [두 카메라 영상 파노라마 합성](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+
+**두 입력 시점과 정렬된 파노라마 결과를 비교한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="두 카메라 영상 파노라마 합성" height="280"></a>
+</p>
+
+---
+
+
+<a id="category-performance"></a>
+## ⚡ 성능 최적화
+
+<a id="case-9"></a>
+### 사례 9: [Flowdesk 분석과 성능 개선](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
+
+**느린 화면을 추적하고 업무 기능을 보존하며 세 차례 측정을 비교한다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk 분석과 성능 개선" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk 분석과 성능 개선" height="210"></a></td>
+</tr></tbody></table>
+
+[결과물 보기 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [결과물 보기 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
+
+**프롬프트**
+
+```text
+你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
+启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
+要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
+修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
+最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
+
+```
+
+---
+
+<a id="case-10"></a>
+### 사례 10: [rsync 성능 개선 반복](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
+
+**각 최적화를 추적하고 두 벤치마크 기록을 따로 유지한다**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync 성능 개선 반복" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync 성능 개선 반복" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-research"></a>
+## 🧪 알고리즘 연구
+
+<a id="case-41"></a>
+### 사례 41: [시계열 결측치 대치 반복](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+
+**고정된 설정에서 실험 피드백, 구성 요소 제거 실험, 재검증을 추적한다**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="시계열 결측치 대치 반복" height="280"></a>
+</p>
 
 ---
 
@@ -720,161 +803,78 @@
 ---
 
 
-<a id="category-research"></a>
-## 🧪 알고리즘 연구
+<a id="category-engineering"></a>
+## 🛠️ 디버깅과 기능 개발
 
-<a id="case-41"></a>
-### 사례 41: [시계열 결측치 대치 반복](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+<a id="case-1"></a>
+### 사례 1: [터미널의 기본 스크롤 위치 유지](https://github.com/MiniMax-AI/minimax-code/pull/306) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**고정된 설정에서 실험 피드백, 구성 요소 제거 실험, 재검증을 추적한다**
+**활동 행이 사라져도 긴 대화의 현재 표시 위치를 유지한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="시계열 결측치 대치 반복" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-2"></a>
+### 사례 2: [경합한 SQLite 쓰기 재시도](https://github.com/MiniMax-AI/minimax-code/pull/319) (작성자 [@zch0227](https://github.com/zch0227))
 
-<a id="category-science"></a>
-## 🔬 과학 계산과 시각 처리
+**작업 수락, 상태 갱신, 종료에 걸친 동시 쓰기를 처리한다**
 
-<a id="case-42"></a>
-### 사례 42: [위상 배열 안테나 재구성](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
-
-**빔 방향과 부엽 제약 아래의 위상 조정을 시각화한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="위상 배열 안테나 재구성" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-43"></a>
-### 사례 43: [지지 구조 최적화](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+<a id="case-3"></a>
+### 사례 3: [끝나지 않는 구간 분할 방지](https://github.com/moment/luxon/pull/1810) (작성자 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**고정 하중과 재료 예산 아래에서 재료 배치를 탐색한다**
+**음수 기간과 멈춘 경계를 검사하면서 올바른 달력 동작을 보존한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="지지 구조 최적화" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-44"></a>
-### 사례 44: [탄성 물체 시뮬레이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+<a id="case-4"></a>
+### 사례 4: [구성 요소가 없는 ISO 기간 거부](https://github.com/moment/luxon/pull/1812) (작성자 [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**물리 조건을 바꾸며 재구성한 물체를 비교한다**
+**빈 기간과 명시적으로 유효한 0을 구분한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="탄성 물체 시뮬레이션" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-45"></a>
-### 사례 45: [두 카메라 영상 파노라마 합성](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+<a id="case-5"></a>
+### 사례 5: [선택 가능한 터미널 테마](https://github.com/MiniMax-AI/minimax-code/pull/311) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**두 입력 시점과 정렬된 파노라마 결과를 비교한다**
+**이름 있는 팔레트, 실시간 미리보기, 설정 저장을 결합한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="두 카메라 영상 파노라마 합성" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-6"></a>
+### 사례 6: [claude-tap에 mcode 연결](https://github.com/liaohch3/claude-tap/pull/441) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
 
-<a id="category-presentation"></a>
-## 📑 프레젠테이션
+**필터링된 기록과 추적 뷰어 증거를 갖춘 개발 클라이언트를 통합한다**
 
-<a id="case-46"></a>
-### 사례 46: [전기차 산업 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
-
-**지역 비교, 차트, 결론을 컨설팅 보고서 형식으로 결합한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="전기차 산업 프레젠테이션" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="전기차 산업 프레젠테이션" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
-<a id="case-47"></a>
-### 사례 47: [생성형 영상 시장 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+<a id="case-7"></a>
+### 사례 7: [동적 작업 흐름 검토와 복구](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**밀도 높은 시장 정보를 통일된 차트와 표로 정리한다**
+**실행 전에 구조를 검토하고 실패한 단계를 복구한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="생성형 영상 시장 프레젠테이션" height="280"></a>
-</p>
+<sub>2026-09-17</sub>
 
 ---
 
-<a id="case-48"></a>
-### 사례 48: [CampusOS 제품 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+<a id="case-8"></a>
+### 사례 8: [acpx용 mcode 프로필](https://github.com/openclaw/acpx/pull/503) (작성자 [@hetaoBackend](https://github.com/hetaoBackend))
 
-**제품과 모듈을 중심으로 일관된 시각적 이야기를 만든다**
+**내장 ACP 에이전트 프로필로 MiniMax Code를 연결한다**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS 제품 프레젠테이션" height="280"></a>
-</p>
-
----
-
-<a id="case-49"></a>
-### 사례 49: [문명의 기원 학습 자료](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
-
-**박물관 스타일 이미지와 글꼴로 스페인어 수업 페이지를 만든다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="문명의 기원 학습 자료" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="문명의 기원 학습 자료" height="280"></a>
-</p>
-
----
-
-<a id="case-50"></a>
-### 사례 50: [편집 디자인 스타일 강연](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
-
-**흑백 글자와 도식으로 추상적 생각에 명확한 리듬을 준다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="편집 디자인 스타일 강연" height="280"></a>
-</p>
-
----
-
-<a id="case-51"></a>
-### 사례 51: [삽화가 있는 파닉스 수업](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
-
-**공통 어미를 반복되는 그림과 교실 활동에 연결한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="삽화가 있는 파닉스 수업" height="280"></a>
-</p>
-
----
-
-<a id="case-52"></a>
-### 사례 52: [에베레스트 지형 프레젠테이션](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
-
-**고도, 경로, 위험을 도식과 비교 페이지로 설명한다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="에베레스트 지형 프레젠테이션" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="에베레스트 지형 프레젠테이션" height="280"></a>
-</p>
-
----
-
-<a id="case-53"></a>
-### 사례 53: [발리 7일 여행 안내](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
-
-**일정을 통일된 일별 페이지와 전체 여행 개요로 바꾼다**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="발리 7일 여행 안내" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="발리 7일 여행 안내" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 

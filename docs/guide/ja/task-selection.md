@@ -6,17 +6,17 @@
 
 | タスク分類 | 事例数 |
 |---|---|
-| [デバッグと機能開発](../../../README_ja.md#category-engineering) | 8 |
-| [性能最適化](../../../README_ja.md#category-performance) | 2 |
 | [3D インタラクション](../../../README_ja.md#category-scenes) | 4 |
 | [ゲーム](../../../README_ja.md#category-games) | 4 |
 | [Web インターフェース](../../../README_ja.md#category-web) | 6 |
 | [データ可視化](../../../README_ja.md#category-visualization) | 4 |
 | [マルチモーダルワークフロー](../../../README_ja.md#category-multimodal) | 6 |
-| [金融調査とモデリング](../../../README_ja.md#category-finance) | 6 |
-| [アルゴリズム研究](../../../README_ja.md#category-research) | 1 |
-| [科学計算と画像処理](../../../README_ja.md#category-science) | 4 |
 | [プレゼンテーション](../../../README_ja.md#category-presentation) | 8 |
+| [科学計算と画像処理](../../../README_ja.md#category-science) | 4 |
+| [性能最適化](../../../README_ja.md#category-performance) | 2 |
+| [アルゴリズム研究](../../../README_ja.md#category-research) | 1 |
+| [金融調査とモデリング](../../../README_ja.md#category-finance) | 6 |
+| [デバッグと機能開発](../../../README_ja.md#category-engineering) | 8 |
 
 ### 参照
 

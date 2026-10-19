@@ -6,17 +6,17 @@
 
 | 任務類別 | 案例數 |
 |---|---|
-| [除錯與功能開發](../../../README_zh-TW.md#category-engineering) | 8 |
-| [效能優化](../../../README_zh-TW.md#category-performance) | 2 |
 | [三維互動](../../../README_zh-TW.md#category-scenes) | 4 |
 | [遊戲](../../../README_zh-TW.md#category-games) | 4 |
 | [網站與介面](../../../README_zh-TW.md#category-web) | 6 |
 | [資料視覺化](../../../README_zh-TW.md#category-visualization) | 4 |
 | [多模態工作流程](../../../README_zh-TW.md#category-multimodal) | 6 |
-| [金融研究與建模](../../../README_zh-TW.md#category-finance) | 6 |
-| [演算法研究](../../../README_zh-TW.md#category-research) | 1 |
-| [科學計算與視覺處理](../../../README_zh-TW.md#category-science) | 4 |
 | [簡報](../../../README_zh-TW.md#category-presentation) | 8 |
+| [科學計算與視覺處理](../../../README_zh-TW.md#category-science) | 4 |
+| [效能優化](../../../README_zh-TW.md#category-performance) | 2 |
+| [演算法研究](../../../README_zh-TW.md#category-research) | 1 |
+| [金融研究與建模](../../../README_zh-TW.md#category-finance) | 6 |
+| [除錯與功能開發](../../../README_zh-TW.md#category-engineering) | 8 |
 
 ### 參考
 

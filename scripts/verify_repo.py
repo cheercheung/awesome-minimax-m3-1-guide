@@ -48,22 +48,25 @@ def main():
  for row,c in zip(rows,cases):
   for k in ['public_number','group_id','category','type','title','takeaway','source_url','author_handle','attribution_role','date','date_basis','demo_url','playable_video_url']:check(row[k]==('' if c.get(k) is None else str(c[k])),'CSV '+c['group_id']+' '+k)
   check(row['prompt_count']==str(len(c['prompts'])),'CSV Prompt count');check(row['source_media_count']==str(c['source_media_count']),'CSV media count')
- translations={};guide_counts={};english_titles={c['public_number']:c['title'] for c in cases};locale_list=['en'] if args.english_only else LOCALES
+ display_categories=[x.removeprefix('category-') for x in cfg['namespace']['category_anchors']];display_cases=sorted(cases,key=lambda c:(display_categories.index(c['category']),c['public_number']));translations={};guide_counts={};english_titles={c['public_number']:c['title'] for c in cases};locale_list=['en'] if args.english_only else LOCALES
  if not args.english_only:check({p.name for p in ROOT.glob('README*.md')}=={'README.md' if l=='en' else f'README_{l}.md' for l in LOCALES},'README locale set')
  for lang in locale_list:
-  path=ROOT/('README.md' if lang=='en' else f'README_{lang}.md');text=path.read_text();clean=fenced(text)[1];matches=list(re.finditer(r'<a id="case-(\d+)"></a>\n### ([^\n]+)',clean));check([int(m[1]) for m in matches]==list(range(1,54)),lang+' case identities');check('width="760"' in clean and 'images/banner.svg' in clean,lang+' banner');check(not re.search(r'^Type:|^## .*Introduction|^## .*Quick Start',clean,re.M),lang+' owner profile');check(len(re.findall(r'\]\(#category-',clean))==11,lang+' categories');local_titles=[];check(fenced(text)[0]==[p['text'] for c in cases for p in c['prompts'] if len(p['text'])<=1000],lang+' immutable inline Prompt text')
-  for i,(m,c) in enumerate(zip(matches,cases)):
+  path=ROOT/('README.md' if lang=='en' else f'README_{lang}.md');text=path.read_text();clean=fenced(text)[1];matches=list(re.finditer(r'<a id="case-(\d+)"></a>\n### ([^\n]+)',clean));check([int(m[1]) for m in matches]==[c['public_number'] for c in display_cases],lang+' case identities');check('width="760"' in clean and 'images/banner.svg' in clean,lang+' banner');check(not re.search(r'^Type:|^## .*Introduction|^## .*Quick Start',clean,re.M),lang+' owner profile');check(len(re.findall(r'\]\(#category-',clean))==11,lang+' categories');local_titles=[];check(fenced(text)[0]==[p['text'] for c in display_cases for p in c['prompts'] if len(p['text'])<=1000],lang+' immutable inline Prompt text')
+  for i,(m,c) in enumerate(zip(matches,display_cases)):
    end=matches[i+1].start() if i+1<len(matches) else clean.index('## 📖',m.end());body=clean[m.end():end];head=m[2];title=re.match(re.escape(PREFIX[lang])+r' (\d+): \[([^\]]+)\]\(([^)]+)\)',head);check(bool(title),lang+' heading '+str(i+1))
    if title:
     check(int(title[1])==c['public_number'] and title[3]==c['source_url'],lang+' source '+str(i+1));local_titles.append(title[2]);check(title[2]==c['title'] if lang=='en' else title[2]!=c['title'],lang+' title translation '+str(i+1))
    bold=re.search(r'^\*\*(.+)\*\*$',body,re.M);check(bool(bold),lang+' takeaway '+str(i+1));check(bold[1]==c['takeaway'] if lang=='en' and bold else bool(bold) and bold[1]!=c['takeaway'],lang+' takeaway translation '+str(i+1))
    ims=image_list(body);expected=c['r2_media_items'];check(len(ims)==len(expected),lang+' visuals '+str(i+1))
    for im,item in zip(ims,expected):
-    url=item['poster_url'] if item['kind']=='video' else item['image_url'];target=item['playable_video_url'] if item['kind']=='video' else item['image_url'];check(im.get('src')==url and im.get('link')==target and im.get('height')=='280' and not im.get('width'),lang+' complete media '+str(i+1));check(title is not None and im.get('alt')==title[2],lang+' alt '+str(i+1))
+    url=item['poster_url'] if item['kind']=='video' else item['image_url'];target=item['playable_video_url'] if item['kind']=='video' else item['image_url'];check(im.get('src')==url and im.get('link')==target and im.get('height')==str(cfg['presentation'].get('paired_image_height',280) if len(expected)==2 else cfg['presentation']['case_image_height']) and not im.get('width'),lang+' complete media '+str(i+1));check(title is not None and im.get('alt')==title[2],lang+' alt '+str(i+1))
+   if len(expected)==2:
+    tables=re.findall(r'<table>(.*?)</table>',body,re.S)
+    check(len(tables)==1 and len(re.findall(r'<tr\b',tables[0]))==1 and len(re.findall(r'<td\b',tables[0]))==2,lang+' two-column pair '+c['group_id'])
    if c['prompts'] and len(c['prompts'][0]['text'])>1000:check('prompts/'+c['group_id']+'.md' in body,lang+' long Prompt link '+str(i+1))
    if c['display_date']:check(c['date'] in body,lang+' PR date '+str(i+1))
   nav=re.findall(r'\]\(#category-([^)]+)\)\s*\|\s*(\d+)',clean)
-  category_order=list(dict.fromkeys(c['category'] for c in cases))
+  category_order=display_categories
   check(nav==[(cat,str(sum(c['category']==cat for c in cases))) for cat in category_order],lang+' category counts')
   for ci,cat in enumerate(category_order):
    start=clean.index('<a id="category-'+cat+'"></a>');end=clean.index('<a id="category-'+category_order[ci+1]+'"></a>') if ci+1<len(category_order) else clean.index('## 📖',start)

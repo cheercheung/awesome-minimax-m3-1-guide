@@ -6,17 +6,17 @@
 
 | Семейство задач | Примеры |
 |---|---|
-| [Отладка и разработка функций](../../../README_ru.md#category-engineering) | 8 |
-| [Оптимизация производительности](../../../README_ru.md#category-performance) | 2 |
 | [3D-взаимодействие](../../../README_ru.md#category-scenes) | 4 |
 | [Игры](../../../README_ru.md#category-games) | 4 |
 | [Веб-интерфейсы](../../../README_ru.md#category-web) | 6 |
 | [Визуализация данных](../../../README_ru.md#category-visualization) | 4 |
 | [Мультимодальные процессы](../../../README_ru.md#category-multimodal) | 6 |
-| [Финансовые исследования и моделирование](../../../README_ru.md#category-finance) | 6 |
-| [Исследование алгоритмов](../../../README_ru.md#category-research) | 1 |
-| [Научные и визуальные вычисления](../../../README_ru.md#category-science) | 4 |
 | [Презентации](../../../README_ru.md#category-presentation) | 8 |
+| [Научные и визуальные вычисления](../../../README_ru.md#category-science) | 4 |
+| [Оптимизация производительности](../../../README_ru.md#category-performance) | 2 |
+| [Исследование алгоритмов](../../../README_ru.md#category-research) | 1 |
+| [Финансовые исследования и моделирование](../../../README_ru.md#category-finance) | 6 |
+| [Отладка и разработка функций](../../../README_ru.md#category-engineering) | 8 |
 
 ### Источники
 

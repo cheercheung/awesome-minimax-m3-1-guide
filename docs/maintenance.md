@@ -6,7 +6,7 @@
 
 ## Case format
 
-Use a stable `case-N` anchor, linked case heading, concise bold takeaway, centered source visuals and optional supplied Prompt. Images use height 280 without a fixed width. Video posters link to browser-compatible MP4s; GIFs remain animated. Complete source attachment sets and their input/output roles stay in data. Public source attribution follows the supplied handbook; public PR authors are named when known. Intake dates are recorded as intake dates in data and are not presented as creation dates.
+Use a stable `case-N` anchor, linked case heading, concise bold takeaway, centered source visuals and optional supplied Prompt. Single visuals use height 280 without a fixed width. Cases with exactly two visuals use one table row with two columns and height 210, preserving aspect ratio and fitting the pair within the README content width. Category display starts with 3D interaction, games and web interfaces; stable case IDs remain unchanged. Video posters link to browser-compatible MP4s; GIFs remain animated. Complete source attachment sets and their input/output roles stay in data. Public source attribution follows the supplied handbook; public PR authors are named when known. Intake dates are recorded as intake dates in data and are not presented as creation dates.
 
 Do not add Introduction, Quick Start, type labels, promotional calls to action, collection-scope paragraphs or repetitive audit notes to cases. Keep internal evidence notes in the dataset and maintenance records. A task summary must not become an invented original Prompt. Long supplied Prompts link to their complete files.
 

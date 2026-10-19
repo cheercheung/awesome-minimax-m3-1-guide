@@ -18,134 +18,17 @@
 
 | Kategori | Örnekler |
 |---|---|
-| [🛠️ Hata ayıklama ve özellikler](#category-engineering) | 8 |
-| [⚡ Performans iyileştirme](#category-performance) | 2 |
 | [🏛️ 3B etkileşim](#category-scenes) | 4 |
 | [🎮 Oyunlar](#category-games) | 4 |
 | [🖥️ Web arayüzleri](#category-web) | 6 |
 | [📊 Veri görselleştirme](#category-visualization) | 4 |
 | [🎬 Çok modlu iş akışları](#category-multimodal) | 6 |
-| [📈 Finansal araştırma ve modelleme](#category-finance) | 6 |
-| [🧪 Algoritma araştırması](#category-research) | 1 |
-| [🔬 Bilimsel ve görsel hesaplama](#category-science) | 4 |
 | [📑 Sunumlar](#category-presentation) | 8 |
-
-<a id="category-engineering"></a>
-## 🛠️ Hata ayıklama ve özellikler
-
-<a id="case-1"></a>
-### Örnek 1: [Terminalin doğal kaydırmasını koruma](https://github.com/MiniMax-AI/minimax-code/pull/306) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Etkinlik satırları kaybolurken uzun konuşmanın mevcut konumunu koruyun**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-2"></a>
-### Örnek 2: [Çakışan SQLite yazmalarını yeniden deneme](https://github.com/MiniMax-AI/minimax-code/pull/319) (yazan [@zch0227](https://github.com/zch0227))
-
-**Görev kabulü, durum güncellemesi ve tamamlanması boyunca eşzamanlı yazmaları yönetin**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-3"></a>
-### Örnek 3: [Sonsuz aralık bölmelerini durdurma](https://github.com/moment/luxon/pull/1810) (yazan [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**Geçerli takvim davranışını korurken negatif süreleri ve ilerlemeyen sınırları denetleyin**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-4"></a>
-### Örnek 4: [Bileşensiz ISO sürelerini reddetme](https://github.com/moment/luxon/pull/1812) (yazan [@EaseLearnAI](https://github.com/EaseLearnAI))
-
-**Boş süreyi geçerli ve açıkça belirtilmiş sıfırdan ayırın**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-5"></a>
-### Örnek 5: [Seçilebilir terminal temaları](https://github.com/MiniMax-AI/minimax-code/pull/311) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Adlandırılmış paletleri, canlı önizlemeyi ve kalıcı ayarları birleştirin**
-
-<sub>2026-09-22</sub>
-
----
-
-<a id="case-6"></a>
-### Örnek 6: [mcode ile claude-tap bağlantısı](https://github.com/liaohch3/claude-tap/pull/441) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Filtreli kayıtlar ve iz görüntüleyici kanıtlarıyla kodlama istemcisini entegre edin**
-
-<sub>2026-08-16</sub>
-
----
-
-<a id="case-7"></a>
-### Örnek 7: [Dinamik iş akışlarını inceleme ve onarma](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
-
-**Çalıştırmadan önce topolojiyi inceleyin ve başarısız adımları onarın**
-
-<sub>2026-09-17</sub>
-
----
-
-<a id="case-8"></a>
-### Örnek 8: [acpx için mcode profili](https://github.com/openclaw/acpx/pull/503) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
-
-**MiniMax Code'u yerleşik ACP aracı profiliyle bağlayın**
-
-<sub>2026-08-16</sub>
-
----
-
-
-<a id="category-performance"></a>
-## ⚡ Performans iyileştirme
-
-<a id="case-9"></a>
-### Örnek 9: [Flowdesk analizi ve iyileştirmesi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
-
-**Yavaş ekranları izleyin, iş işlemlerini koruyun ve üç ölçüm turunu karşılaştırın**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk analizi ve iyileştirmesi" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk analizi ve iyileştirmesi" height="280"></a>
-</p>
-
-[Sonucu görüntüle 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [Sonucu görüntüle 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
-
-**İstem**
-
-```text
-你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
-启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
-要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
-修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
-最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
-
-```
-
----
-
-<a id="case-10"></a>
-### Örnek 10: [rsync performansını yinelemeli iyileştirme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
-
-**Her optimizasyonu izleyin ve iki kıyaslama kaydını ayrı tutun**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync performansını yinelemeli iyileştirme" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync performansını yinelemeli iyileştirme" height="280"></a>
-</p>
-
----
-
+| [🔬 Bilimsel ve görsel hesaplama](#category-science) | 4 |
+| [⚡ Performans iyileştirme](#category-performance) | 2 |
+| [🧪 Algoritma araştırması](#category-research) | 1 |
+| [📈 Finansal araştırma ve modelleme](#category-finance) | 6 |
+| [🛠️ Hata ayıklama ve özellikler](#category-engineering) | 8 |
 
 <a id="category-scenes"></a>
 ## 🏛️ 3B etkileşim
@@ -543,10 +426,10 @@
 
 **Referans görüntüleri yeni bir marka hareket dizisine dönüştürün**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design marka filmi uyarlaması" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design marka filmi uyarlaması" height="280"></a>
-</p>
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/445d044cb416e662-poster.jpg" alt="MiniMax Design marka filmi uyarlaması" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/51f952c5a7ba11de-poster.jpg" alt="MiniMax Design marka filmi uyarlaması" height="210"></a></td>
+</tr></tbody></table>
 
 **İstem**
 
@@ -610,6 +493,206 @@
 ```text
 做一下这个题
 ```
+
+---
+
+
+<a id="category-presentation"></a>
+## 📑 Sunumlar
+
+<a id="case-46"></a>
+### Örnek 46: [Elektrikli araç sektörü sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
+
+**Bölgesel karşılaştırmaları, grafikleri ve sonuçları danışmanlık düzeninde birleştirin**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="Elektrikli araç sektörü sunumu" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="Elektrikli araç sektörü sunumu" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-47"></a>
+### Örnek 47: [Üretken video pazarı sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+
+**Yoğun pazar bilgisini uyumlu grafikler ve tablolarla düzenleyin**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="Üretken video pazarı sunumu" height="280"></a>
+</p>
+
+---
+
+<a id="case-48"></a>
+### Örnek 48: [CampusOS ürün sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+
+**Kampüs ürünü ve modülleri etrafında tutarlı görsel anlatı kurun**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS ürün sunumu" height="280"></a>
+</p>
+
+---
+
+<a id="case-49"></a>
+### Örnek 49: [Uygarlığın kökeni dersi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
+
+**İspanyolca eğitim sayfalarında müze tarzı görüntüler ve tipografi kullanın**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="Uygarlığın kökeni dersi" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="Uygarlığın kökeni dersi" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-50"></a>
+### Örnek 50: [Editoryal tarzda konuşma](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
+
+**Soyut fikirlere tek renkli yazı ve şemalarla açık bir ritim kazandırın**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="Editoryal tarzda konuşma" height="280"></a>
+</p>
+
+---
+
+<a id="case-51"></a>
+### Örnek 51: [Resimli ses bilgisi dersi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
+
+**Bir sözcük ailesini yinelenen resimler ve sınıf etkinlikleriyle bağlayın**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="Resimli ses bilgisi dersi" height="280"></a>
+</p>
+
+---
+
+<a id="case-52"></a>
+### Örnek 52: [Everest arazi sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
+
+**Yükseklik, rota ve riskleri şemalar ve karşılaştırma sayfalarıyla açıklayın**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="Everest arazi sunumu" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="Everest arazi sunumu" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+<a id="case-53"></a>
+### Örnek 53: [Bali'de yedi günlük gezi özeti](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
+
+**Gezi planını uyumlu günlük sayfalara ve bütün yolculuk görünümüne dönüştürün**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="Bali&#x27;de yedi günlük gezi özeti" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="Bali&#x27;de yedi günlük gezi özeti" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-science"></a>
+## 🔬 Bilimsel ve görsel hesaplama
+
+<a id="case-42"></a>
+### Örnek 42: [Faz dizili anteni yeniden yapılandırma](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
+
+**Işın yönü ve yan lob kısıtları altında faz ayarlarını görselleştirin**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="Faz dizili anteni yeniden yapılandırma" height="280"></a>
+</p>
+
+---
+
+<a id="case-43"></a>
+### Örnek 43: [Destek yapısını optimize etme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+
+**Sabit yük ve malzeme bütçesi altında malzeme dağılımını araştırın**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="Destek yapısını optimize etme" height="280"></a>
+</p>
+
+---
+
+<a id="case-44"></a>
+### Örnek 44: [Esnek nesneleri benzetme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+
+**Yeniden oluşturulmuş nesneleri farklı fiziksel koşullarda karşılaştırın**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="Esnek nesneleri benzetme" height="280"></a>
+</p>
+
+---
+
+<a id="case-45"></a>
+### Örnek 45: [Çift kamera videosunu birleştirme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+
+**İki giriş görüntüsünü hizalanmış panoramik sonuçla karşılaştırın**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="Çift kamera videosunu birleştirme" height="280"></a>
+</p>
+
+---
+
+
+<a id="category-performance"></a>
+## ⚡ Performans iyileştirme
+
+<a id="case-9"></a>
+### Örnek 9: [Flowdesk analizi ve iyileştirmesi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-009)
+
+**Yavaş ekranları izleyin, iş işlemlerini koruyun ve üç ölçüm turunu karşılaştırın**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0be01d25aae9e4d5.png" alt="Flowdesk analizi ve iyileştirmesi" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c6ea50b7835b7f86.png" alt="Flowdesk analizi ve iyileştirmesi" height="210"></a></td>
+</tr></tbody></table>
+
+[Sonucu görüntüle 1](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/414dd588fb6d5834.zip) · [Sonucu görüntüle 2](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/df80eba46d1f48b2.zip)
+
+**İstem**
+
+```text
+你接手一个已有的本地客服工单工作台，不是从零开发。用户报告：进入列表很慢，输入搜索时卡顿，在工单/概览间多次切换后情况更差。请自主操作浏览器与性能工具，定位实际原因并修复，保留已有业务功能。
+启动 node server.cjs，监听端口由终端输出给出；不要碰其他服务。目录已有 browser-kit.cjs，可 require 它使用 Playwright Chromium，支持通过 newCDPSession 使用 Chrome DevTools Protocol。你也可以使用当前环境其他可用的电脑/浏览器工具。
+要求先在真实浏览器复现，再录制修复前的 Chrome 性能 trace 或 CPU profile，同时检查 Network 请求、DOM 数量、Layout/脚本耗时。不能只看源码猜原因，不能把单个函数的计时当成用户操作时间。保留原始证据。自己选择测量方法，解释指标实际覆盖什么。
+修复后重复相同输入和操作序列，使用同一8000条数据，至少3轮测量；不要减少数据、取消搜索、隐藏错误、只显示固定前几条或删除原有功能来提升数字。列表必须能访问最后一条，搜索、状态筛选、金额排序、详情、勾选、批量处理、完整导出都需保留。页面切换不应丢掉本次已修改的工单状态。
+最终保存：修复前后原始trace/profile、测量JSON、桌面截图、RESULT.md（复现→证据→根因→修改→验证→残留问题）。截图后使用图片读取工具检查。说明是否使用浏览器自动化或原生桌面操作，不能混称。无需人工指导，尽量自主完成诊断到复测；不改browser-kit，不安装全仓依赖，不需要发布。给成品与证据，不能只有分析报告。
+
+```
+
+---
+
+<a id="case-10"></a>
+### Örnek 10: [rsync performansını yinelemeli iyileştirme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-010)
+
+**Her optimizasyonu izleyin ve iki kıyaslama kaydını ayrı tutun**
+
+<table><tbody><tr>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/e05739d66959e205.png" alt="rsync performansını yinelemeli iyileştirme" height="210"></a></td>
+<td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/39a351368d139e82.gif" alt="rsync performansını yinelemeli iyileştirme" height="210"></a></td>
+</tr></tbody></table>
+
+---
+
+
+<a id="category-research"></a>
+## 🧪 Algoritma araştırması
+
+<a id="case-41"></a>
+### Örnek 41: [Zaman serisi eksik değerlerini yinelemeli tamamlama](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+
+**Sabit görev ayarında deneyleri, bileşen çıkarma testlerini ve yeniden ölçümleri izleyin**
+
+<p align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="Zaman serisi eksik değerlerini yinelemeli tamamlama" height="280"></a>
+</p>
 
 ---
 
@@ -720,161 +803,78 @@
 ---
 
 
-<a id="category-research"></a>
-## 🧪 Algoritma araştırması
+<a id="category-engineering"></a>
+## 🛠️ Hata ayıklama ve özellikler
 
-<a id="case-41"></a>
-### Örnek 41: [Zaman serisi eksik değerlerini yinelemeli tamamlama](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-041)
+<a id="case-1"></a>
+### Örnek 1: [Terminalin doğal kaydırmasını koruma](https://github.com/MiniMax-AI/minimax-code/pull/306) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Sabit görev ayarında deneyleri, bileşen çıkarma testlerini ve yeniden ölçümleri izleyin**
+**Etkinlik satırları kaybolurken uzun konuşmanın mevcut konumunu koruyun**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/422fa991740011e9.gif" alt="Zaman serisi eksik değerlerini yinelemeli tamamlama" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-2"></a>
+### Örnek 2: [Çakışan SQLite yazmalarını yeniden deneme](https://github.com/MiniMax-AI/minimax-code/pull/319) (yazan [@zch0227](https://github.com/zch0227))
 
-<a id="category-science"></a>
-## 🔬 Bilimsel ve görsel hesaplama
+**Görev kabulü, durum güncellemesi ve tamamlanması boyunca eşzamanlı yazmaları yönetin**
 
-<a id="case-42"></a>
-### Örnek 42: [Faz dizili anteni yeniden yapılandırma](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-042)
-
-**Işın yönü ve yan lob kısıtları altında faz ayarlarını görselleştirin**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/7d28029b231f7879.gif" alt="Faz dizili anteni yeniden yapılandırma" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-43"></a>
-### Örnek 43: [Destek yapısını optimize etme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-043)
+<a id="case-3"></a>
+### Örnek 3: [Sonsuz aralık bölmelerini durdurma](https://github.com/moment/luxon/pull/1810) (yazan [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**Sabit yük ve malzeme bütçesi altında malzeme dağılımını araştırın**
+**Geçerli takvim davranışını korurken negatif süreleri ve ilerlemeyen sınırları denetleyin**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/cb1d698cadb47d71.gif" alt="Destek yapısını optimize etme" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-44"></a>
-### Örnek 44: [Esnek nesneleri benzetme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-044)
+<a id="case-4"></a>
+### Örnek 4: [Bileşensiz ISO sürelerini reddetme](https://github.com/moment/luxon/pull/1812) (yazan [@EaseLearnAI](https://github.com/EaseLearnAI))
 
-**Yeniden oluşturulmuş nesneleri farklı fiziksel koşullarda karşılaştırın**
+**Boş süreyi geçerli ve açıkça belirtilmiş sıfırdan ayırın**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/c94002dd0277d3ef-poster.jpg" alt="Esnek nesneleri benzetme" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
-<a id="case-45"></a>
-### Örnek 45: [Çift kamera videosunu birleştirme](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-045)
+<a id="case-5"></a>
+### Örnek 5: [Seçilebilir terminal temaları](https://github.com/MiniMax-AI/minimax-code/pull/311) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
 
-**İki giriş görüntüsünü hizalanmış panoramik sonuçla karşılaştırın**
+**Adlandırılmış paletleri, canlı önizlemeyi ve kalıcı ayarları birleştirin**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62ab881afbaf49ee.png" alt="Çift kamera videosunu birleştirme" height="280"></a>
-</p>
+<sub>2026-09-22</sub>
 
 ---
 
+<a id="case-6"></a>
+### Örnek 6: [mcode ile claude-tap bağlantısı](https://github.com/liaohch3/claude-tap/pull/441) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
 
-<a id="category-presentation"></a>
-## 📑 Sunumlar
+**Filtreli kayıtlar ve iz görüntüleyici kanıtlarıyla kodlama istemcisini entegre edin**
 
-<a id="case-46"></a>
-### Örnek 46: [Elektrikli araç sektörü sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-046)
-
-**Bölgesel karşılaştırmaları, grafikleri ve sonuçları danışmanlık düzeninde birleştirin**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b416fde93e373d27.png" alt="Elektrikli araç sektörü sunumu" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/8262a19b5130108b.png" alt="Elektrikli araç sektörü sunumu" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
-<a id="case-47"></a>
-### Örnek 47: [Üretken video pazarı sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-047)
+<a id="case-7"></a>
+### Örnek 7: [Dinamik iş akışlarını inceleme ve onarma](https://github.com/MiniMax-AI/MiniMax-Code-Plugins/pull/42) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Yoğun pazar bilgisini uyumlu grafikler ve tablolarla düzenleyin**
+**Çalıştırmadan önce topolojiyi inceleyin ve başarısız adımları onarın**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/d3e4804aba65463e.png" alt="Üretken video pazarı sunumu" height="280"></a>
-</p>
+<sub>2026-09-17</sub>
 
 ---
 
-<a id="case-48"></a>
-### Örnek 48: [CampusOS ürün sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-048)
+<a id="case-8"></a>
+### Örnek 8: [acpx için mcode profili](https://github.com/openclaw/acpx/pull/503) (yazan [@hetaoBackend](https://github.com/hetaoBackend))
 
-**Kampüs ürünü ve modülleri etrafında tutarlı görsel anlatı kurun**
+**MiniMax Code'u yerleşik ACP aracı profiliyle bağlayın**
 
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/efd76855a0e928d2.png" alt="CampusOS ürün sunumu" height="280"></a>
-</p>
-
----
-
-<a id="case-49"></a>
-### Örnek 49: [Uygarlığın kökeni dersi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-049)
-
-**İspanyolca eğitim sayfalarında müze tarzı görüntüler ve tipografi kullanın**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/1b7ae54ae44f7f13.png" alt="Uygarlığın kökeni dersi" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/b1ce20000dfd9045.png" alt="Uygarlığın kökeni dersi" height="280"></a>
-</p>
-
----
-
-<a id="case-50"></a>
-### Örnek 50: [Editoryal tarzda konuşma](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-050)
-
-**Soyut fikirlere tek renkli yazı ve şemalarla açık bir ritim kazandırın**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/920bba33668135e7.png" alt="Editoryal tarzda konuşma" height="280"></a>
-</p>
-
----
-
-<a id="case-51"></a>
-### Örnek 51: [Resimli ses bilgisi dersi](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-051)
-
-**Bir sözcük ailesini yinelenen resimler ve sınıf etkinlikleriyle bağlayın**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/86ffb61d8ce64b2b.png" alt="Resimli ses bilgisi dersi" height="280"></a>
-</p>
-
----
-
-<a id="case-52"></a>
-### Örnek 52: [Everest arazi sunumu](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-052)
-
-**Yükseklik, rota ve riskleri şemalar ve karşılaştırma sayfalarıyla açıklayın**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/0c1352a3f74c6d06.png" alt="Everest arazi sunumu" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/62098ea7fec1e9b5.png" alt="Everest arazi sunumu" height="280"></a>
-</p>
-
----
-
-<a id="case-53"></a>
-### Örnek 53: [Bali'de yedi günlük gezi özeti](https://github.com/cheercheung/awesome-minimax-m3-1-guide/blob/main/sources/handbook.md#mm-053)
-
-**Gezi planını uyumlu günlük sayfalara ve bütün yolculuk görünümüne dönüştürün**
-
-<p align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/bb2145e35ddb1486.png" alt="Bali&#x27;de yedi günlük gezi özeti" height="280"></a>
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/assets/source/88b30bedd4a8eb00.png" alt="Bali&#x27;de yedi günlük gezi özeti" height="280"></a>
-</p>
+<sub>2026-08-16</sub>
 
 ---
 
