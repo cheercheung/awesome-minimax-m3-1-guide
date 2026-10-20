@@ -33,7 +33,9 @@
     "show_promotion": false,
     "two_image_layout": "two-columns",
     "visual_categories_first": true,
-    "paired_image_height": 210
+    "paired_image_height": 210,
+    "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-minimax-m3-1-guide/images/banner-12265e75c5cc.png",
+    "banner_path": "images/banner-12265e75c5cc.png"
   },
   "structured_data": {
     "path": "data/use-cases.json",
