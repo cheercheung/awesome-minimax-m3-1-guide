@@ -2,7 +2,8 @@
 """Portable verification of complete handbook, case, media, Prompt and locale parity."""
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlsplit,unquote
+from urllib.parse import parse_qs,urlsplit,unquote
+import html
 import re,json,csv,hashlib,argparse,sys
 ROOT=Path(__file__).resolve().parents[1];LOCALES=['en','es','pt','ja','ko','de','fr','tr','zh-TW','zh-CN','ru'];PREFIX={'en':'Case','es':'Caso','pt':'Caso','ja':'ケース','ko':'사례','de':'Fall','fr':'Cas','tr':'Örnek','zh-TW':'案例','zh-CN':'案例','ru':'Пример'};GUIDES=['task-selection','reasoning','multimodal','context-cache','workflows','migration','protocols'];errors=[]
 def check(ok,msg):
@@ -50,8 +51,14 @@ def main():
   check(row['prompt_count']==str(len(c['prompts'])),'CSV Prompt count');check(row['source_media_count']==str(c['source_media_count']),'CSV media count')
  display_categories=[x.removeprefix('category-') for x in cfg['namespace']['category_anchors']];display_cases=sorted(cases,key=lambda c:(display_categories.index(c['category']),c['public_number']));translations={};guide_counts={};english_titles={c['public_number']:c['title'] for c in cases};locale_list=['en'] if args.english_only else LOCALES
  if not args.english_only:check({p.name for p in ROOT.glob('README*.md')}=={'README.md' if l=='en' else f'README_{l}.md' for l in LOCALES},'README locale set')
+ banner_url = urlsplit(cfg['presentation']['banner_link'])
+ href = html.escape(banner_url.geturl())
+ check(banner_url.scheme == 'https' and banner_url.hostname == 'evolink.ai' and banner_url.path == '/minimax-m3-1-flash', 'banner model destination')
+ check(parse_qs(banner_url.query) == {'utm_source': ['github'], 'utm_medium': ['banner'], 'utm_campaign': ['awesome-minimax-m3-1-guide'], 'utm_content': ['readme_banner']}, 'banner UTM attribution')
  for lang in locale_list:
   path=ROOT/('README.md' if lang=='en' else f'README_{lang}.md');text=path.read_text();clean=fenced(text)[1];matches=list(re.finditer(r'<a id="case-(\d+)"></a>\n### ([^\n]+)',clean));check([int(m[1]) for m in matches]==[c['public_number'] for c in display_cases],lang+' case identities');check('width="760"' in clean and cfg['presentation']['banner_url'] in clean and (ROOT/cfg['presentation']['banner_path']).is_file(),lang+' banner');check(not re.search(r'^Type:|^## .*Introduction|^## .*Quick Start',clean,re.M),lang+' owner profile');check(len(re.findall(r'\]\(#category-',clean))==11,lang+' categories');local_titles=[];check(fenced(text)[0]==[p['text'] for c in display_cases for p in c['prompts'] if len(p['text'])<=1000],lang+' immutable inline Prompt text')
+  cover = re.search(r'<a href="' + re.escape(href) + r'"><img src="' + re.escape(cfg['presentation']['banner_url']) + r'"[^\n]*></a>', clean[:1000])
+  check(cover is not None and clean.count(href) == 1, lang + ' tracked banner link')
   for i,(m,c) in enumerate(zip(matches,display_cases)):
    end=matches[i+1].start() if i+1<len(matches) else clean.index('## 📖',m.end());body=clean[m.end():end];head=m[2];title=re.match(re.escape(PREFIX[lang])+r' (\d+): \[([^\]]+)\]\(([^)]+)\)',head);check(bool(title),lang+' heading '+str(i+1))
    if title:

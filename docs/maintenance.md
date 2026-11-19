@@ -10,6 +10,8 @@ Use a stable `case-N` anchor, linked case heading, concise bold takeaway, center
 
 Do not add Introduction, Quick Start, type labels, promotional calls to action, collection-scope paragraphs or repetitive audit notes to cases. Keep internal evidence notes in the dataset and maintenance records. A task summary must not become an invented original Prompt. Long supplied Prompts link to their complete files.
 
+Link the top README banner to the model detail page specified by `presentation.banner_link` in `data/usecase-update-config.json`. Keep its four GitHub UTM parameters in every language.
+
 ## Update checklist
 
 1. Preserve source material and review every candidate against a concrete task and corresponding output
